@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <AutoLocalizeReportOnRun>True</AutoLocalizeReportOnRun>
+  <Culture>fa-IR</Culture>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <receiptItems Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>receiptItems</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category />
+        <Columns isList="true" count="4">
+          <value>totalPrice,System.String</value>
+          <value>pricePerUnit,System.String</value>
+          <value>productCount,System.String</value>
+          <value>productName,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Guid>55b628b454db4d6a887723528d35b11f</Guid>
+        <Name>receiptItems</Name>
+      </receiptItems>
+    </BusinessObjects>
+    <Databases isList="true" count="1">
+      <invoiceItems Ref="3" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>invoiceItems</Alias>
+        <Key>62f0363937304f0a8f85c47eb2a0b2fe</Key>
+        <Name>invoiceItems</Name>
+        <PathData />
+      </invoiceItems>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <root Ref="4" type="DataTableSource" isKey="true">
+        <Alias>root</Alias>
+        <Columns isList="true" count="4">
+          <value>ORIGINAL,name,name,name,System.String,_x0038_39d84c98f9c44378fabd49bc58eb67d</value>
+          <value>ORIGINAL,count,count,count,System.Int32,c0db51a60cc647e7af70db29c44c51ac</value>
+          <value>ORIGINAL,unitPrice,unitPrice,unitPrice,System.Int32,e1556e44881a4e7cbe58e2b77060ca83</value>
+          <value>ORIGINAL,total,total,total,System.Int32,_x0036_188e1119d734dc0af2d2d8e36bf1bdf</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>ee7ee47b873b423aa9a738dd9379a33a</Key>
+        <Name>root</Name>
+        <NameInSource>invoiceItems.root</NameInSource>
+      </root>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="2">
+      <value>,Date,Date,,System.String,,False,False,False,False</value>
+      <value>,Time,Time,,System.String,,False,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="1">
+    <Item4 Ref="5" type="Stimulsoft.Report.StiGlobalizationContainer" isKey="true">
+      <CultureName>fa-IR</CultureName>
+      <Items isList="true" count="0" />
+    </Item4>
+  </GlobalizationStrings>
+  <Key>c7837b576fec4b70b5072c3396ca03ca</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="6" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageFooterBand1 Ref="7" type="PageFooterBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,12.4,4.6,1.6</ClientRectangle>
+          <Components isList="true" count="2">
+            <Text4 Ref="8" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.8,0.8,2.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <Text>www.moeinsoft.com</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text8 Ref="9" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.4,0.2,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,6</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="6" />
+              <Parent isRef="7" />
+              <Text>:مجموع قابل پرداخت</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <PrintOn>OnlyFirstAndLastPage</PrintOn>
+          <ResetPageNumber>True</ResetPageNumber>
+        </PageFooterBand1>
+        <ReportTitleBand1 Ref="10" type="ReportTitleBand" isKey="true">
+          <Border>All;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,4.6,1.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <Image1 Ref="11" type="Image" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0.2,0.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <HorAlignment>Center</HorAlignment>
+              <IconColor>68, 114, 196</IconColor>
+              <ImageBytes>AAABAAQAMDAAAAEAIACoJQAARgAAACAgAAABACAAqBAAAO4lAAAYGAAAAQAgAIgJAACWNgAAEBAA
+AAEAIABoBAAAHkAAACgAAAAwAAAAYAAAAAEAIAAAAAAAgCUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAB0WXBsoHIxcLyCzkiwbw74qGMLeKRfC9CcVwv0nFcL9KRfC9CoYwt4tHMO+LyC0kycb
+jV0fGF8cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAB4XVxMtIKNxLBvDyycVwv4mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL+LBrDzC8hp3IfGVwUAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfGWIaLx+4lCgWwvUmFMH+JhTB/icVwv8mFMH+
+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4o
+FsL2MyS8lSQdaRsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxQ+Bi0frnwoFsL0JhTB
+/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icWwvUwIrN9GBRDBgAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAnHnkqLBvD0CYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/
+KxrD0SkhgCsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAACwhnVMoFsLzJhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icV
+wv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/icWwvQyJqRVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCOrbCcVwv0nFcL/JxXC/ycVwv8n
+FcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycV
+wv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL9LSCu
+bgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwI6ts
+JxXC/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4mFMH+JhXB/i0frm4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACofnFMnFcL9JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+
+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv0yJqRVAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCF5KigWwvMnFcL/JhTB/iYUwf4mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/
+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4m
+FMH+JhTB/iYUwf4nFsL0Jh6AKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWEjwGKxvC0CYU
+wf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/KxvD0RoWRgYAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAvIq57JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/
+JhTB/i8is30AAAAAAAAAAAAAAAAAAAAAAAAAACEbYhooFsL0JxXC/ycVwv8nFcL/JxXC/ycVwv8n
+FcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycV
+wv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycWwvUkHWsbAAAAAAAAAAAAAAAAAAAAAC8huJMmFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8m
+FMH+JhTB/iYUwf4+Lsj+oJjk/iYUwf4nFcL/oJjk/j4uyP4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4vILuVAAAA
+AAAAAAAAAAAAHxlWEigWwvUmFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/
+JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+MiHF/peO4f729vz+7+76/iYUwf4nFcL/7+76/vb2/P6X
+juH+MiHF/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4oFsL2IhtgFAAAAAAAAAAALyKjcCYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/ioZw/+Adtv+7Or5/v7+/v7+/v7+
+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+7Or5/oB22/4qGcP/JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+MSSrcgAAAAAAAAAALRzDyiYU
+wf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4nFcL+al3V
+/t3a9f/+/v7+/v7+/v7+/v7+/v7+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+/v7+/v7+/v7d2vX/
+al3V/icVwv4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4m
+FMH+KxrDzAAAAAAfGVsaJxXC/ScVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycV
+wv8nFcL/JxXC/1RGzv/KxvD/////////////////////////////////7+76/ycVwv8nFcL/7+76
+/////////////////////////////////8rG8P9URs7/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/iMcZRwpHotaJhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf5DM8n/tK7p/v79/v7+/v7+/v7+/v/////+/v7+/v7+/v7+
+/v7+/v7+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+/v7+/v7+/v7//////v7+/v7+/v7+/f7+tK7p
+/kMzyf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/ioflF0xIrKR
+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/lhK0P75+P3//v7+/v7+/v7+
+/v7+/v7+/v/////+/v7+/v7+/v7+/v7+/v7+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+/v7+/v7+
+/v7//////v7+/v7+/v7+/v7+/v7+/vn4/f5YStD/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+JhTB/jIiupMuHcS8JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+
+JhTB/mld1P7//////v7+/v7+/v7+/v7+/v7+/v/////+/v7+/v7+/v7+/v7+/v7+7+76/iYUwf4n
+FcL/7+76/v7+/v7+/v7+/v7+/v7+/v7//////v7+/v7+/v7+/v7+/v7+/v7+/v5pXdT/JhTB/iYU
+wf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iwbw74qGcLcJhTB/iYUwf4mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/mld1P7//////v7+/v7+/v7+/v7+/v7+/v/////+/v7+
+/v7+/v7+/v7+/v7+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+/v7+/v7+/v7//////v7+/v7+/v7+
+/v7+/v7+/v7+/v5pXdT/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/ioY
+wt4pF8LyJhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/mld1P7//////v7+
+/v7+/v7+/v7+/v7+/v/////+/v7+/v7+/v7+/v7+/v7+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+
+/v7+/v7+/v7//////v7+/v7+/v7+/v7+/v7+/v7+/v5pXdT/JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/ikXwvQnFcL8JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JhTB/mld1P7//////v7+/v7+/v7+/v7+/v7+/v/////+/v7+/v7+/v7+/v7+/v7+7+76
+/iYUwf4nFcL/7+76/v7+/v7+/v7+/v7+/v7+/v7//////v7+/v7+/v7+/v7+/v7+/v7+/v5pXdT/
+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv0nFcL8JxXC/ycVwv8n
+FcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/2ld1P//////////////////////////////
+////////////////////////7+76/ycVwv8nFcL/7+76////////////////////////////////
+//////////////////////9pXdT/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycVwv0pF8LyJhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/mld1P7/
+/////v7+/v7+/v7+/v7+/v7+/v/////+/v7+/v7+/v7+/v7+/v7+7+76/iYUwf4nFcL/7+76/v7+
+/v7+/v7+/v7+/v7+/v7//////v7+/v7+/v7+/v7+/v7+/v7+/v5pXdT/JhTB/iYUwf4mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/ikXwvQqGcPbJhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/
+JhTB/iYUwf4mFMH+JhTB/mld1P7//////v7+/v7+/v7+/v7+/v7+/v/////+/v7+/v7+/v7+/v7+
+/v7+7+76/iYUwf4nFcL/7+76/v7+/v7+/v7+/v7+/v7+/v7//////v7+/v7+/v7+/v7+/v7+/v7+
+/v5pXdT/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/ioYwt4uHcS8JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/mld1P7//////v7+/v7+/v7+/v7+
+/v7+/v/////+/v7+/v7+/v7+/v719Pz+lo3h/iYUwf4nFcL/lo3h/vX0/P7+/v7+/v7+/v7+/v7/
+/////v7+/v7+/v7+/v7+/v7+/v7+/v5pXdT/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JhTB/iwbw74wIbOQJhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB
+/mld1P7//////v7+/v7+/v7+/v7+/v7+/v/////+/v7+9vX8/p2V4/45Kcf+JhTB/iYUwf4nFcL/
+JhTB/jkpx/6dleP+9vX8/v7+/v7//////v7+/v7+/v7+/v7+/v7+/v7+/v5pXdT/JhTB/iYUwf4m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/jMju5IqH4xaJhTB/iYUwf4mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4mFMH+JhTB/mld1P7//////v7+/v7+/v7+/v7+/v7+/vf3/P+gmOT+OyvH
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+OyvH/qCY5P739/z//v7+/v7+/v7+/v7+
+/v7+/v7+/v5pXdT/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iwgllwh
+Gl0ZJxXC/ScVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/2ld1P//////////////
+///4+P3/o5vl/z0tyP8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC
+/ycVwv89Lcj/o5vl//j4/f////////////////9pXdT/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycVwv8nFcL/JxXC/iIbZhsAAAAALRzDySYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4m
+FMH+JhTB/mld1P7/////+fn9/qae5f4/L8j+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/j8vyP6mnuX++fn9/v7+/v5pXdT/JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+KxrDywAAAAAAAAAAMiWmbyYUwf4mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/mVY0/6ooeb/QDHJ/iYUwf4mFMH+JhTB/icVwv8m
+FMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+QDHJ/qih5v5lWNP/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+MCOs
+cQAAAAAAAAAAIRxaEigWwvQmFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv4nFcL/
+JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4nFcL1IBlhEwAAAAAAAAAAAAAAADMkupImFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4vILyUAAAAAAAAAAAAAAAAAAAAACUf
+ZhkoFsLzJhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB
+/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/
+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/igWwvQj
+G20aAAAAAAAAAAAAAAAAAAAAAAAAAAAyJbF5JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycV
+wv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycVwv8nFcL/JxXC/zAitXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZFUEFLBvDziYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYU
+wf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/KxrD0BwYSgYAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAKiJ9KSgWwvMnFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4m
+FMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFsLzKyKG
+KgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwhn1EnFcL8JhTB/iYUwf4mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JhTB/icVwv0tIqVTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAxJK5qJxXC/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+
+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/jEjsmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMSSuaicVwvwmFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4nFcL9MSOybAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0h
+oVEoFsLzJxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycWwvMrH6RTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoIH8pKxrDziYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/icV
+wv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+JhTB/iYUwf4nFcL/KxrD0CsihioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRVEBTAisnko
+FsLzJhTB/iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/igWwvQxIrV7GxdKBgAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAkHWkZMCG7kigWwvQmFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4nFsL1Lh+8kyMb
+bRoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEaXhIwIqlv
+KxrDyScVwv0mFMH+JhTB/iYUwf4mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JhTB/iYUwf4n
+FcL9KxrDyjEjrHAgGmESAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAZYhkqHpJaMSG4kCwbw7wqGMLbKRfC8icVwvwnFcL8
+KRfC8ioYwtwsGsO8MCG6kSkdlFogGWQaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//4AB//8AAP/8AAA//wAA//AAAA//
+AAD/wAAAA/8AAP+AAAAB/wAA/wAAAAD/AAD+AAAAAH8AAPwAAAAAPwAA+AAAAAAfAADwAAAAAA8A
+AOAAAAAABwAA4AAAAAAHAADAAAAAAAMAAMAAAAAAAwAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+AAAAAQAAgAAAAAABAACAAAAAAAEAAMAAAAAAAwAAwAAAAAADAADgAAAAAAcAAOAAAAAABwAA8AAA
+AAAPAAD4AAAAAB8AAPwAAAAAPwAA/gAAAAB/AAD/AAAAAP8AAP+AAAAB/wAA/8AAAAP/AAD/8AAA
+D/8AAP/8AAA//wAA//+AAf//AAAoAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIONw8fFXVaKRqknCsa
+wcwoF8LtJxXC/ScVwv0oF8LtLBvBzSgapZwgFnZaEw86DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgSUiUqHKud
+JxbC9iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8nFsL2LB2unhwWViYA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8M
+KgkpG6OMJxXC+iYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC
+/yYUwf4mFMH+JxXC+iodpo0PDC0KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAYE1ElKhq/1CYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/ysawNQcFlclAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAHRZhMSkXwuonFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ygXwusbFGYy
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgSUCUpF8LqJhTB/iYUwf4mFMH+JxXC/yYUwf4m
+FMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icV
+wv8mFMH+JhTB/igXwusdF1glAAAAAAAAAAAAAAAAAAAAAAAAAAAPDCoJKhq/0ycVwv8mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/
+JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/ikZv9UQDS4KAAAAAAAAAAAAAAAAAAAAACkco4wm
+FMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYU
+wf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yodp40AAAAAAAAA
+AAAAAAAZFFElJxXC+icVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+KBbC/zEfxP8xH8T/KBbC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8n
+FcL/JxXC+hsVVyYAAAAAAAAAACscq5wmFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JxXC/15Q0f7U0PL+ZFfT/mRX0//U0PL+XlDR/iYVwf4nFcL/JhTB/iYUwf4mFMH+JxXC
+/yYUwf4mFMH+JhTB/icVwv8mFMH+LB6wngAAAAATEDcOJxbC9SYUwf4mFMH+JxXC/yYUwf4mFMH+
+JhTB/icVwv8mFMH+JhTB/ko7zP6+uez//v7+/v7+/v5kV9P+ZFfT//7+/v7+/v7+vrns/ko7zP8m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4oFsL2FRE9DyAWdFkmFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4mFMH+JxXC/zsqx/6ooOb++/v+/v/////+/v7+/v7+/mRX0/5kV9P//v7+
+/v7+/v7+/v7++/v+/6ig5v47Ksf+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4iGHta
+KRukmycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/y4cxP+RiOD/9PP8////////////////////////
+////ZFfT/2RX0/////////////////////////////Tz/P+RiOD/LhzE/ycVwv8nFcL/JxXC/ycV
+wv8nFcL/JxXC/yocqpwtHMHLJhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+U0XO/v/////+/v7+/v7+
+/v7+/v7//////v7+/v7+/v5kV9P+ZFfT//7+/v7+/v7+/v7+/v/////+/v7+/v7+/v7+/v5TRc7/
+JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+LBvCzSkXwusmFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf5T
+Rc7+//////7+/v7+/v7+/v7+/v/////+/v7+/v7+/mRX0/5kV9P//v7+/v7+/v7+/v7+//////7+
+/v7+/v7+/v7+/lNFzv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4oF8LtJxXC/CYUwf4mFMH+JhTB
+/icVwv8mFMH+JhTB/lNFzv7//////v7+/v7+/v7+/v7+//////7+/v7+/v7+ZFfT/mRX0//+/v7+
+/v7+/v7+/v7//////v7+/v7+/v7+/v7+U0XO/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/icVwv0n
+FsL8JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/U0XO////////////////////////////////////
+//9kV9P/ZFfT//////////////////////////////////////9TRc7/JxXC/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/SkXwusmFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf5TRc7+//////7+/v7+/v7+
+/v7+/v/////+/v7+/v7+/mRX0/5kV9P//v7+/v7+/v7+/v7+//////7+/v7+/v7+/v7+/lNFzv8m
+FMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4oF8LtLRzByyYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/lNF
+zv7//////v7+/v7+/v7+/v7+//////v6/f6qo+f+OCjG/jgoxv+qo+f++/r9/v7+/v7//////v7+
+/v7+/v7+/v7+U0XO/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iwawswqHKWaJhTB/iYUwf4mFMH+
+JxXC/yYUwf4mFMH+U0XO/v/////+/v7+/v7+/vv7/v6tpuj/RDTK/iYUwf4mFMH+JxXC/yYUwf5E
+NMr+rabo/vv7/v/+/v7+/v7+/v7+/v5TRc7/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+LB2rnCEY
+dlgnFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv9TRc7///////z8/v+wquj/RjfK/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/ycVwv8nFcL/RjfK/7Cq6P/8/P7//////1NFzv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycVwv8iGHtaFRE4DigWwvUmFMH+JhTB/icVwv8mFMH+JhTB/lFDzv6zren/SDnL/iYUwf4m
+FMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/kg5y/6zren+UUPO/yYU
+wf4mFMH+JhTB/icVwv8mFMH+JxbC9hQQPg8AAAAALR+tnCYUwf4mFMH+JxXC/yYUwf4mFMH+JxXC
+/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+
+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4qHLCdAAAAAAAAAAAcF1QkJxXC+iYUwf4n
+FcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYU
+wf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JxXC+hsUWSUAAAAAAAAA
+AAAAAAArHqWLJxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/
+JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8r
+HamMAAAAAAAAAAAAAAAAAAAAABANLAkrGr/TJxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYU
+wf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB
+/iYUwf4mFMH+KhrA1BEOMQkAAAAAAAAAAAAAAAAAAAAAAAAAABkUVCQoF8LqJhTB/iYUwf4mFMH+
+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4m
+FMH+JhTB/icVwv8mFMH+JhTB/igXwuobFFolAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAZ
+ZjEoF8LqJhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB
+/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4oF8LqIBhrMQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAABoUVSQqGr/TJxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8n
+FcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/KxrA0xoTWSUAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8MLQkqHKaLJxXC+iYUwf4mFMH+JhTB
+/icVwv8mFMH+JhTB/iYUwf4nFcL/JhTB/iYUwf4mFMH+JxXC/yYUwf4mFMH+JxXC+isdqYwRDTAJ
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAb
+FVYkLB2unCgWwvUmFMH+JxXC/yYUwf4mFMH+JhTB/icVwv8mFMH+JhTB/iYUwf4nFcL/JxbC9Ssc
+sJwaFFklAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAFA87DiEXeVgqG6iaKxrCyygXwusnFcL8JxXC/CgXwusrGsLL
+KhupmiAWelkVED0OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AA///
+AAD//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAPAAAAD4AAAB/AAAA/4AAAf/AAA
+P/8AAP//wAP/KAAAABgAAAAwAAAAAQAgAAAAAABgCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAASDj4hIBWBeSkZsLspF8LmJxXC/CcVwvwpF8LmKRmxuyAVgnkT
+DkAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEg09ICcZ
+p6gnFcL8JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JxXC/yYUwf4nFcL8KRuqqRMOQCEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfFnhcKBbC8ycVwv8mFMH+JhTB/icVwv8mFMH+
+JhTB/icVwv8mFMH+JxXC/yYUwf4mFMH+JxXC/ygWwvMiGHxdAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAACQYjHYnFcL+JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycV
+wv8nFcL/JxXC/ycVwv8nFcL+IhaOdwAAAAAAAAAAAAAAAAAAAAAAAAAAHxZ3XCcVwv4mFMH+JhTB
+/icVwv8mFMH+JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JxXC/yYUwf4mFMH+JxXC/yYUwf4mFMH+
+JxXC/iEYfF0AAAAAAAAAAAAAAAASDj0gKBbC8ycVwv8mFMH+JhTB/icVwv8mFMH+JhTB/icVwv8m
+FMH+JhTB/icVwv8mFMH+JxXC/yYUwf4mFMH+JxXC/yYUwf4mFMH+JxXC/ygWwvMUD0EhAAAAAAAA
+AAAoGqeoJxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8sG8P/RTXK/0U1yv8sG8P/JxXC
+/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8oGqqpAAAAABMPPiAnFcL8JhTB/icVwv8mFMH+
+JhTB/icVwv8mFMH+JxbC/nFm1//j4Pf+i4He/ouB3v/j4Pf+cWbX/ycWwv4mFMH+JxXC/yYUwf4m
+FMH+JxXC/yYUwf4nFcL8FRBDISAVgHgmFMH+JhTB/icVwv8mFMH+JhTB/icVwv9bTdD+0c3y/v//
+///+/v7+i4He/ouB3v/+/v7+/////9HN8v5bTdD+JxXC/yYUwf4mFMH+JxXC/yYUwf4mFMH+IheF
+eSoasLonFcL/JxXC/ycVwv8nFcL/MyLF/7u27P/+/v7/////////////////i4He/4uB3v//////
+///////////+/v7/u7bs/zMixf8nFcL/JxXC/ycVwv8nFcL/Khu0uykYwuUmFMH+JhTB/icVwv8m
+FMH+SDnL/v/////+/v7+/v7+/v/////+/v7+i4He/ouB3v/+/v7+//////7+/v7+/v7+/////0g5
+y/4mFMH+JxXC/yYUwf4mFMH+KRfC5icVwvsmFMH+JhTB/icVwv8mFMH+SDnL/v/////+/v7+/v7+
+/v/////+/v7+i4He/ouB3v/+/v7+//////7+/v7+/v7+/////0g5y/4mFMH+JxXC/yYUwf4mFMH+
+JxXC/CcVwvsnFcL/JxXC/ycVwv8nFcL/SDnL////////////////////////////i4He/4uB3v//
+/////////////////////////0g5y/8nFcL/JxXC/ycVwv8nFcL/JxXC/CkYwuUmFMH+JhTB/icV
+wv8mFMH+SDnL/v/////+/v7+/v7+/v/////8/P7+dGnY/nRp2P/8/P7+//////7+/v7+/v7+////
+/0g5y/4mFMH+JxXC/yYUwf4mFMH+KRfC5ioasbonFcL/JxXC/ycVwv8nFcL/SDnL////////////
+/f3+/7Su6f9JOsv/JxXC/ycVwv9JOsv/tK7p//39/v///////////0g5y/8nFcL/JxXC/ycVwv8n
+FcL/Kxu1uyEWgXgmFMH+JhTB/icVwv8mFMH+SDnL/v39/v+3ser+SzzM/icVwv8mFMH+JhTB/icV
+wv8mFMH+JxXC/0s8zP63ser+/f3+/0g5y/4mFMH+JxXC/yYUwf4mFMH+IhaGeRUQQCAnFcL8JhTB
+/icVwv8mFMH+NiXG/k0/zP8mFMH+JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JxXC/yYUwf4mFMH+
+TT/M/zYlxv4mFMH+JxXC/yYUwf4nFcL8FA9DIQAAAAAqG6mnJxXC/ycVwv8nFcL/JxXC/ycVwv8n
+FcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycV
+wv8oGauoAAAAAAAAAAAUDz8fKBbC8icVwv8mFMH+JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JhTB
+/icVwv8mFMH+JxXC/yYUwf4mFMH+JxXC/yYUwf4mFMH+JxXC/ygWwvMUEEMgAAAAAAAAAAAAAAAA
+IBd5WycVwv4mFMH+JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JxXC/yYUwf4m
+FMH+JxXC/yYUwf4mFMH+JxXC/iEXflwAAAAAAAAAAAAAAAAAAAAAAAAAACUajnUnFcL+JxXC/ycV
+wv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL+JRmR
+dgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgFnpbKBbC8icVwv8mFMH+JhTB/icVwv8mFMH+
+JhTB/icVwv8mFMH+JxXC/yYUwf4mFMH+JxXC/ygWwvMhF35cAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAEw9AHykaqqcnFcL8JhTB/icVwv8mFMH+JhTB/icVwv8mFMH+JxXC/yYU
+wf4nFcL8KBmrqBQQQyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAUD0IgIRWEeCoas7opF8LlJxXC+ycVwvspF8LlKhq0uiEVhXgUD0MgAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAP4AfwD4AB8A8AAPAOAABwDAAAMAgAABAIAAAQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABAIAAAQDAAAMA4AAHAPAADwD4AB8A/gB/ACgA
+AAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQxA
+MCATjJcoF7rZJxXC+icVwvooF7rZIBSNlxINQjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBBQJ
+IhWTmicVwv0mFMH+JxXC/yYUwf4nFcL/JhTB/icVwv8nFcL9IxaVmwcFFQkAAAAAAAAAAAAAAAAG
+BBQJJRaqwScVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8lFavCBwUWCQAA
+AAAAAAAAIhaTmicVwv8mFMH+JxXC/yYUwf4nFcL/JhTB/icVwv8mFMH+JxXC/yYUwf4nFcL/JhTB
+/iIWlpsAAAAAEQw/MCcVwv0nFcL/JxXC/ycVwv8nFcL/NCPF/2RX0/9kV9P/NCPF/ycVwv8nFcL/
+JxXC/ycVwv8nFcL9Eg1CMSAUi5cmFMH+JxXC/yYUwf4sGsP/hXvc/u7t+v+xq+n+savp/+7t+v6F
+e9z/LBrD/icVwv8mFMH+JxXC/yEVj5cpGLrZJxXC/ycVwv8zI8X/4d72////////////savp/7Gr
+6f///////////+He9v8zI8X/JxXC/ycVwv8pGLzZJxXC+SYUwf4nFcL/PS3I/v/////+/v7+////
+/7Gr6f6xq+n//v7+/v/////+/v7+PS3I/yYUwf4nFcL/JxXC+icVwvknFcL/JxXC/z0tyP//////
+//////////+xq+n/savp/////////////////z0tyP8nFcL/JxXC/ycVwvopGLrZJhTB/icVwv89
+Lcj+//////7+/v67tev/TD3M/kw9zP+7tev+/v7+//7+/v49Lcj/JhTB/icVwv8pGLzZIRWMlicV
+wv8nFcL/PCzI/7247P9RQs3/JxXC/ycVwv8nFcL/JxXC/1FCzf+9uOz/PCzI/ycVwv8nFcL/IRWP
+lxINQTAnFcL9JxXC/ycVwf4nFcL/JhTB/icVwv8mFMH+JxXC/yYUwf4nFcL/JhTB/icVwv8mFMH+
+JxXC/RIMQzAAAAAAIxaUmScVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8nFcL/JxXC/ycVwv8n
+FcL/JxXC/yMWl5oAAAAAAAAAAAYFFQkmF6vBJhTB/icVwv8mFMH+JxXC/yYUwf4nFcL/JhTB/icV
+wv8mFMH+JxXC/yYXrMEGBRYJAAAAAAAAAAAAAAAABgUVCSMWlZknFcL9JxXC/ycVwv8nFcL/JxXC
+/ycVwv8nFcL/JxXC/SMWl5oGBRYJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEg1CMCEUjpYpGLvZ
+JxXC+ScVwvkpF7zZIRSPlxIMQzAAAAAAAAAAAAAAAAAAAAAA8A8AAMADAACAAQAAgAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAA8A8AAA==</ImageBytes>
+              <Margins>0,0,0,0</Margins>
+              <Name>Image1</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Stretch>True</Stretch>
+              <VertAlignment>Center</VertAlignment>
+            </Image1>
+            <Text3 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.8,0.2,2.2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,8</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>حسابداری معین
+فیش تست</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text2 Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.2,0.8,1.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>{Arabic(Date)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text6 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.4,0.8,2,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="6" />
+              <Parent isRef="10" />
+              <Text>{Arabic(Time)}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>ReportTitleBand1</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+        </ReportTitleBand1>
+        <Header Ref="15" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.8,4.6,0.8</ClientRectangle>
+          <Components isList="true" count="5">
+            <HeaderInvoice_Name Ref="16" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderInvoice_Name</Name>
+              <Page isRef="6" />
+              <Parent isRef="15" />
+              <Text>نام کالا</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderInvoice_Name>
+            <HeaderInvoice_Count Ref="17" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.4,0,0.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderInvoice_Count</Name>
+              <Page isRef="6" />
+              <Parent isRef="15" />
+              <Text>تعداد</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,Angle=90</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderInvoice_Count>
+            <Text1 Ref="18" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.2,0,0.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="6" />
+              <Parent isRef="15" />
+              <Text>ردیف</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,Angle=90</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <HeaderInvoice_PriceUnit Ref="19" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderInvoice_PriceUnit</Name>
+              <Page isRef="6" />
+              <Parent isRef="15" />
+              <Text>قیمت</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderInvoice_PriceUnit>
+            <HeaderInvoice_Total Ref="20" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>HeaderInvoice_Total</Name>
+              <Page isRef="6" />
+              <Parent isRef="15" />
+              <Text>مجموع</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </HeaderInvoice_Total>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Header</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <PrintOn>OnlyFirstPage</PrintOn>
+        </Header>
+        <Data Ref="21" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid>55b628b454db4d6a887723528d35b11f</BusinessObjectGuid>
+          <ClientRectangle>0,4.4,4.6,0.8</ClientRectangle>
+          <Components isList="true" count="5">
+            <DatareceiptItems_totalPrice Ref="22" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,5,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DatareceiptItems_totalPrice</Name>
+              <Page isRef="6" />
+              <Parent isRef="21" />
+              <Text>{Persian(receiptItems.totalPrice)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DatareceiptItems_totalPrice>
+            <DatareceiptItems_pricePerUnit Ref="23" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.2,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,5,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DatareceiptItems_pricePerUnit</Name>
+              <Page isRef="6" />
+              <Parent isRef="21" />
+              <Text>{Persian(receiptItems.pricePerUnit)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DatareceiptItems_pricePerUnit>
+            <DatareceiptItems_productCount Ref="24" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.4,0,0.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,5,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DatareceiptItems_productCount</Name>
+              <Page isRef="6" />
+              <Parent isRef="21" />
+              <Text>{Persian(receiptItems.productCount)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DatareceiptItems_productCount>
+            <DatareceiptItems_productName Ref="25" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.8,0,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,5,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>DatareceiptItems_productName</Name>
+              <Page isRef="6" />
+              <Parent isRef="21" />
+              <Text>{receiptItems.productName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DatareceiptItems_productName>
+            <Text9 Ref="26" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.2,0,0.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Tahoma,5,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="6" />
+              <Parent isRef="21" />
+              <Text>{Persian(Line)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,Angle=90</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>Data</Name>
+          <Page isRef="6" />
+          <Parent isRef="6" />
+          <Sort isList="true" count="0" />
+        </Data>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>3d11aaeeab9a4945a5999612059a3197</Guid>
+      <LargeHeightFactor>2</LargeHeightFactor>
+      <Margins>0.2,0.2,0,0</Margins>
+      <Name>Page1</Name>
+      <PageHeight>10</PageHeight>
+      <PageWidth>5</PageWidth>
+      <Report isRef="0" />
+      <UnlimitedBreakable>False</UnlimitedBreakable>
+      <UnlimitedHeight>True</UnlimitedHeight>
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>6/10/2023 9:21:12 PM</ReportChanged>
+  <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
+  <ReportFile>C:\temp\Report3.mrt</ReportFile>
+  <ReportGuid>fe34026f60da41c3b08d587689555fd9</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2023.1.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
