@@ -6,6 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace ConsolePrinter
 {
@@ -30,7 +32,8 @@ namespace ConsolePrinter
         {
             /// Loading external configuration file
             ExeConfigurationFileMap configMap = new ExeConfigurationFileMap();
-            configMap.ExeConfigFilename = Path.Combine(Environment.CurrentDirectory, configFileName);
+            configMap.ExeConfigFilename = Environment.CurrentDirectory + configFileName;
+
             return ConfigurationManager.OpenMappedExeConfiguration(configMap, ConfigurationUserLevel.None);
         }
 
@@ -41,6 +44,14 @@ namespace ConsolePrinter
             public PrinterNotFoundException() { }
             public PrinterNotFoundException(string message) : base(message) { }
             public PrinterNotFoundException(string message, Exception innerException) : base(message, innerException) { }
+        }
+
+        internal static JObject LoadJsonFile(string jsonFilePath)
+        {
+            /// Load json object from given path
+            string rawJsonContents = File.ReadAllText(jsonFilePath);
+            JObject jsonContents = JsonConvert.DeserializeObject<JObject>(rawJsonContents);
+            return jsonContents;
         }
 
     }
