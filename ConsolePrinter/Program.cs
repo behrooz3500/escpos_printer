@@ -8,9 +8,6 @@ using System.IO;
 using Newtonsoft.Json;
 using Stimulsoft.Report;
 using System.Drawing.Printing;
-using System.Security.Cryptography.X509Certificates;
-using System.Configuration;
-using System.Globalization;
 using Newtonsoft.Json.Linq;
 
 namespace ConsolePrinter
@@ -32,28 +29,40 @@ namespace ConsolePrinter
                 Stimulsoft.Base.StiLicense.LoadFromFile(Environment.CurrentDirectory + constants.licenseRelativePath);
 
                 // Load Config File and fetch parameters from it
-                Configuration config = Utilities.LoadConfigurationFile(constants.configFileName);
-                var configSettings = config.AppSettings.Settings;
-                string printerName = configSettings[constants.configPrinterName].Value;
+                JObject config = Utilities.LoadJsonFile(constants.configFilePath);
+                string printerName = config[constants.configPrinterName].ToString();
+                string reportPath = config[constants.configReportPath].ToString();
+
                 // Validating printer name
                 if (!PrinterSettings.InstalledPrinters.Cast<string>().Contains(printerName, StringComparer.OrdinalIgnoreCase))
                 {
                     throw new Utilities.PrinterNotFoundException("Printer name not found in installed printers!");
                 }
 
-                string jsonContents = File.ReadAllText(args[0]);
-                DataTable inputData = JsonConvert.DeserializeObject<DataTable>(jsonContents);
-
+                JObject jsonData = Utilities.LoadJsonFile(args[0]);
+                var businessObjectData = jsonData[constants.stimulsoftReceiptItemsKey];
+                
                 // Prepare stimulsoft report
                 StiReport report = new StiReport();
-                report.RegBusinessObject(name:constants.stimulsoftBussinessObject, value:inputData);
-                report.Load(configSettings[constants.configReportPath].Value);
+                report.RegBusinessObject(name:constants.stimulsoftBussinessObject, value:businessObjectData);
+                report.Load(reportPath);
                 report.Compile();
-                
+
                 // Set report variables
-                report[constants.stimulsoftTimeVariable] = DateTime.Now.ToString("HH:mm:ss");
-                report[constants.stimulsoftDateVariavle] = DateTime.Now.GetShamsiDate();
-                
+                report[constants.stimulsoftReceiptDate] = jsonData[constants.stimulsoftReceiptDate].ToString();
+                report[constants.stimulsoftReceiptCode] = jsonData[constants.stimulsoftReceiptCode].ToString();
+                report[constants.stimulsoftCompanyTitle] = jsonData[constants.stimulsoftCompanyTitle].ToString();
+                report[constants.stimulsoftCompanyPhone] = jsonData[constants.stimulsoftCompanyPhone].ToString();
+                report[constants.stimulsoftCompanyAddress] = jsonData[constants.stimulsoftCompanyAddress].ToString();
+                report[constants.stimulsoftPersonName] = jsonData[constants.stimulsoftPersonName].ToString();
+                report[constants.stimulsoftPersonPhone] = jsonData[constants.stimulsoftPersonPhone].ToString();
+                report[constants.stimulsoftPersonAddress] = jsonData[constants.stimulsoftPersonAddress].ToString();
+                report[constants.stimulsoftInitialPrice] = jsonData[constants.stimulsoftInitialPrice].ToString();
+                report[constants.stimulsoftDiscount] = jsonData[constants.stimulsoftDiscount].ToString();
+                report[constants.stimulsoftTax] = jsonData[constants.stimulsoftTax].ToString();
+                report[constants.stimulsoftFinalPayment] = jsonData[constants.stimulsoftFinalPayment].ToString();
+                report[constants.stimulsoftSummaryText] = jsonData[constants.stimulsoftSummaryText].ToString();
+
                 // Set printer settings
                 PrinterSettings xprinter = new PrinterSettings();
                 xprinter.PrinterName = printerName;
