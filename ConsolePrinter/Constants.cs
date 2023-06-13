@@ -29,6 +29,8 @@ namespace ConsolePrinter
         public string stimulsoftTax => "tax";
         public string stimulsoftFinalPayment => "final_payment";
         public string stimulsoftSummaryText => "summary_text";
+        public string stimulsoftImagePath => "image_path";
+        public string stimulsoftPreviousPayments => "previous_payments";
 
 
         public enum ExitCode : int

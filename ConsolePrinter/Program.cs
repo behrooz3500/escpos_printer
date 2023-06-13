@@ -62,6 +62,8 @@ namespace ConsolePrinter
                 report[constants.stimulsoftTax] = jsonData[constants.stimulsoftTax].ToString();
                 report[constants.stimulsoftFinalPayment] = jsonData[constants.stimulsoftFinalPayment].ToString();
                 report[constants.stimulsoftSummaryText] = jsonData[constants.stimulsoftSummaryText].ToString();
+                report[constants.stimulsoftImagePath] = jsonData[constants.stimulsoftImagePath].ToString();
+                report[constants.stimulsoftPreviousPayments] = jsonData[constants.stimulsoftPreviousPayments].ToString();
 
                 // Set printer settings
                 PrinterSettings xprinter = new PrinterSettings();
