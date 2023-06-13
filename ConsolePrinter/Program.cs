@@ -40,16 +40,18 @@ namespace ConsolePrinter
                 }
 
                 JObject jsonData = Utilities.LoadJsonFile(args[0]);
-                var businessObjectData = jsonData[constants.stimulsoftReceiptItemsKey];
+                var invoicesBusinessObject = jsonData[constants.stimulsoftReceiptItemsKey];
+                var infoBusinessObject = jsonData[constants.stimulsoftReceiptInfoKey];
                 
                 // Prepare stimulsoft report
                 StiReport report = new StiReport();
-                report.RegBusinessObject(name:constants.stimulsoftBussinessObject, value:businessObjectData);
+                report.RegBusinessObject(name: constants.stimulsoftInvoicesBussinessObject, value:invoicesBusinessObject);
+                report.RegBusinessObject(name: constants.stimulsoftReceiptBussinessObject, value: infoBusinessObject);
                 report.Load(reportPath);
                 report.Compile();
 
                 // Set report variables
-                report[constants.stimulsoftReceiptDate] = jsonData[constants.stimulsoftReceiptDate].ToString();
+                /*report[constants.stimulsoftReceiptDate] = jsonData[constants.stimulsoftReceiptDate].ToString();
                 report[constants.stimulsoftReceiptCode] = jsonData[constants.stimulsoftReceiptCode].ToString();
                 report[constants.stimulsoftCompanyTitle] = jsonData[constants.stimulsoftCompanyTitle].ToString();
                 report[constants.stimulsoftCompanyPhone] = jsonData[constants.stimulsoftCompanyPhone].ToString();
@@ -63,7 +65,7 @@ namespace ConsolePrinter
                 report[constants.stimulsoftFinalPayment] = jsonData[constants.stimulsoftFinalPayment].ToString();
                 report[constants.stimulsoftSummaryText] = jsonData[constants.stimulsoftSummaryText].ToString();
                 report[constants.stimulsoftImagePath] = jsonData[constants.stimulsoftImagePath].ToString();
-                report[constants.stimulsoftPreviousPayments] = jsonData[constants.stimulsoftPreviousPayments].ToString();
+                report[constants.stimulsoftPreviousPayments] = jsonData[constants.stimulsoftPreviousPayments].ToString();*/
 
                 // Set printer settings
                 PrinterSettings xprinter = new PrinterSettings();

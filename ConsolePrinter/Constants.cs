@@ -15,7 +15,10 @@ namespace ConsolePrinter
         public string licenseRelativePath => "//license.key";
 
         public string stimulsoftReceiptItemsKey => "items_list";
-        public string stimulsoftBussinessObject => "receiptItems";
+        public string stimulsoftReceiptInfoKey => "receipt_info";
+        public string stimulsoftInvoicesBussinessObject => "receiptItems";
+        public string stimulsoftReceiptBussinessObject => "receiptInfo";
+
         public string stimulsoftReceiptDate => "receipt_date";
         public string stimulsoftReceiptCode => "receipt_code";
         public string stimulsoftCompanyTitle => "company_title";
