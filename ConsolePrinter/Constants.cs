@@ -19,22 +19,6 @@ namespace ConsolePrinter
         public string stimulsoftInvoicesBussinessObject => "receiptItems";
         public string stimulsoftReceiptBussinessObject => "receiptInfo";
 
-        public string stimulsoftReceiptDate => "receipt_date";
-        public string stimulsoftReceiptCode => "receipt_code";
-        public string stimulsoftCompanyTitle => "company_title";
-        public string stimulsoftCompanyPhone => "company_phone";
-        public string stimulsoftCompanyAddress => "company_address";
-        public string stimulsoftPersonName => "person_name";
-        public string stimulsoftPersonPhone => "person_phone";
-        public string stimulsoftPersonAddress => "person_address";
-        public string stimulsoftInitialPrice => "initial_price";
-        public string stimulsoftDiscount => "discount";
-        public string stimulsoftTax => "tax";
-        public string stimulsoftFinalPayment => "final_payment";
-        public string stimulsoftSummaryText => "summary_text";
-        public string stimulsoftImagePath => "image_path";
-        public string stimulsoftPreviousPayments => "previous_payments";
-
 
         public enum ExitCode : int
         {

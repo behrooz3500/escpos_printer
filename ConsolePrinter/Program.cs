@@ -50,23 +50,6 @@ namespace ConsolePrinter
                 report.Load(reportPath);
                 report.Compile();
 
-                // Set report variables
-                /*report[constants.stimulsoftReceiptDate] = jsonData[constants.stimulsoftReceiptDate].ToString();
-                report[constants.stimulsoftReceiptCode] = jsonData[constants.stimulsoftReceiptCode].ToString();
-                report[constants.stimulsoftCompanyTitle] = jsonData[constants.stimulsoftCompanyTitle].ToString();
-                report[constants.stimulsoftCompanyPhone] = jsonData[constants.stimulsoftCompanyPhone].ToString();
-                report[constants.stimulsoftCompanyAddress] = jsonData[constants.stimulsoftCompanyAddress].ToString();
-                report[constants.stimulsoftPersonName] = jsonData[constants.stimulsoftPersonName].ToString();
-                report[constants.stimulsoftPersonPhone] = jsonData[constants.stimulsoftPersonPhone].ToString();
-                report[constants.stimulsoftPersonAddress] = jsonData[constants.stimulsoftPersonAddress].ToString();
-                report[constants.stimulsoftInitialPrice] = jsonData[constants.stimulsoftInitialPrice].ToString();
-                report[constants.stimulsoftDiscount] = jsonData[constants.stimulsoftDiscount].ToString();
-                report[constants.stimulsoftTax] = jsonData[constants.stimulsoftTax].ToString();
-                report[constants.stimulsoftFinalPayment] = jsonData[constants.stimulsoftFinalPayment].ToString();
-                report[constants.stimulsoftSummaryText] = jsonData[constants.stimulsoftSummaryText].ToString();
-                report[constants.stimulsoftImagePath] = jsonData[constants.stimulsoftImagePath].ToString();
-                report[constants.stimulsoftPreviousPayments] = jsonData[constants.stimulsoftPreviousPayments].ToString();*/
-
                 // Set printer settings
                 PrinterSettings xprinter = new PrinterSettings();
                 xprinter.PrinterName = printerName;
