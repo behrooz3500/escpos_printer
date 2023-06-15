@@ -1,4 +1,5 @@
 {
+{
 		"invoice_code": "کد فاکتور",
         "invoice_date": "تاریخ فاکتور",
         "invoice_time": "زمان فاکتور",
@@ -19,6 +20,7 @@
         "person_name": "اسم شخص خریدار",
         "person_code": "کد شخص",
         "receipt_total": "جمع پرداختی",
+		"items_count": "تعداد اقلام",
 		
 		"product_name": "نام کالا",
 		"product_code": "کد کالا",
@@ -37,5 +39,5 @@
         "company_tel": "تلفن شرکت",
         "company_note": "متن اخر فیش"
 }
+}
 
-# "items_count": مجموع تعداد کالاها
