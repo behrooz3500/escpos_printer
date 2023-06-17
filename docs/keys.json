@@ -20,7 +20,7 @@
         "person_name": "اسم شخص خریدار",
         "person_code": "کد شخص",
         "receipt_total": "جمع پرداختی",
-		"items_count": "تعداد اقلام",
+		"items_quantity": "تعداد اقلام",
 		
 		"product_name": "نام کالا",
 		"product_code": "کد کالا",
