@@ -9,9 +9,9 @@
         <BusinessObjects isList="true" count="0" />
         <Category />
         <Columns isList="true" count="3">
-          <value>ORIGINAL,product_info,product_info,product_info,System.String,c0214952ede548fc93f74e579edcb3c2</value>
           <value>ORIGINAL,item_quantity,item_quantity,item_quantity,System.String,_x0037_7c97a56469f489eb38d5b7d49aa63c0</value>
           <value>ORIGINAL,product_name,product_name,product_name,System.String,_x0039_97a474da4ce481d992acb181d0e373a</value>
+          <value>ORIGINAL,product_info,product_info,product_info,System.String,c0214952ede548fc93f74e579edcb3c2</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>55b628b454db4d6a887723528d35b11f</Guid>
@@ -1065,10 +1065,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/17/2023 2:53:22 PM</ReportChanged>
+  <ReportChanged>6/18/2023 10:59:53 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmAS.mrt</ReportFile>
-  <ReportGuid>38f20f00eb7c4eec84a6f69e7a6c2f9f</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmAS.mrt</ReportFile>
+  <ReportGuid>542438a248f84973981f93ad63c63f2a</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

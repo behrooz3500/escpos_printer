@@ -30,31 +30,23 @@
   [
   
     {
+      "logo_path": "C:\\temp\\R.png",
       "invoice_code": "10001002",
       "invoice_date": "1402/03/25",
+      "username": "صندوق دار 1",
+      "invoice_time": "12:43:45",
       "company_name": "شرکت تستینگ",
-      "company_tel": "05136662223",
       "company_address": "مشهد-خیابان امام-امام 13، تقاطع امام 13.1 و یادگار امام، پلاک 17، طبقه2& واحد 5",
+      "company_tel": "05136662223",
       "person_name": "آقای خریدار",
       "tel": "09155556677",
       "address": "شیراز- کنار سعدی تست برای بررسی آدرس خیلی طولانی سلام دنیا سلام دنیا سلام دنیا سلام دنیا",
-      "items_sum": "5746000",
-      "discount": "46000",
-      "tax": "100000",
-      "total": "580000",
-      "company_note": "با تشکر از خرید شما",
-      "receipt_total": "5000",
-      "logo_path": "C:\\temp\\R.png",
-      "username": "صندوق دار 1",
-      "invoice_time": "12:43:45",
-      "items_quantity": "31",
-      "previous_payments": "100000",
-      "remain": "480000",
-      "info": "تحویل فوری",
       "order_place": "سالن",
-      "courier_name": "حامل شماره ۱",
       "persons_number": "4",
-      "carry_price": "1000"
+      "courier_name": "حامل شماره ۱",
+      "carry_price": "1000",
+      "items_quantity": "31",
+      "company_note": "با تشکر از خرید شما"
     }
   ]
 

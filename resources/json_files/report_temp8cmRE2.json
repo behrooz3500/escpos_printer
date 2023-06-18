@@ -11,51 +11,48 @@
       "product_name": "کالا تست با نام بسیار بسیار طولانی و عریض جهت تست",
       "item_quantity": "6",
       "item_price": "2500",
-      "item_total": "15000", 
-      "product_info": "متن تستی برای بررسی توضیحات اقلام ثبت شده. بررسی طولانی بودن متن توضیحات"
+      "item_total": "15000",
+      "product_info": ""
     },
     {
       "product_name": "کالا تست 3",
       "item_quantity": "10",
       "item_price": "50000",
-      "item_total": "500000", 
-      "product_info": "" 
+      "item_total": "500000" 
     },
     {
       "product_name": "کالا تست 4",
       "item_quantity": "1",
       "item_price": "10000",
-      "item_total": "10000", 
-      "product_info": "" 
+      "item_total": "10000" 
     },
     {
       "product_name": "کالا تست 5",
       "item_quantity": "12",
       "item_price": "5000",
-      "item_total": "60000", 
-      "product_info": "" 
+      "item_total": "60000" 
     }
   ],
   "receipt_info":
   [
   
     {
-      "logo_path": "C:\\temp\\R.png",
+      "invoice_time": "12:43:45",
       "invoice_code": "10001002",
       "invoice_date": "1402/03/25",
-      "username": "صندوق دار 1",
-      "invoice_time": "12:43:45",
       "company_name": "شرکت تستینگ",
       "company_address": "مشهد-خیابان امام-امام 13، تقاطع امام 13.1 و یادگار امام، پلاک 17، طبقه2& واحد 5",
       "company_tel": "05136662223",
       "person_name": "آقای خریدار",
       "tel": "09155556677",
       "address": "شیراز- کنار سعدی تست برای بررسی آدرس خیلی طولانی سلام دنیا سلام دنیا سلام دنیا سلام دنیا",
+      "person_code": "2154",
+      "courier_name": "حامل شماره ۱",
+      "courier_tel": "09155552233",
+      "persons_number": "7",
+      "order_place": "داخل سالن شماره 2",
       "items_quantity": "5",
       "items_sum": "5746000",
-      "info": "تحویل فوری", 
-      "discount": "46000",
-      "tax": "100000",
       "total": "580000",
       "receipt_total": "5000",
       "remain": "480000",

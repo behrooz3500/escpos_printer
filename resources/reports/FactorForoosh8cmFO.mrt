@@ -8,12 +8,13 @@
         <Alias>receiptItems</Alias>
         <BusinessObjects isList="true" count="0" />
         <Category />
-        <Columns isList="true" count="5">
+        <Columns isList="true" count="6">
           <value>ORIGINAL,discounted_price,discounted_price,discounted_price,System.String,c0214952ede548fc93f74e579edcb3c2</value>
           <value>ORIGINAL,item_quantity,item_quantity,item_quantity,System.String,_x0037_7c97a56469f489eb38d5b7d49aa63c0</value>
           <value>ORIGINAL,product_name,product_name,product_name,System.String,_x0039_97a474da4ce481d992acb181d0e373a</value>
           <value>ORIGINAL,item_total,item_total,item_total,System.String,_x0038_a5baee064f648b9ae5f0ac84869b890</value>
-          <value>tag_price,System.String</value>
+          <value>item_price,System.String</value>
+          <value>product_info,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>55b628b454db4d6a887723528d35b11f</Guid>
@@ -24,29 +25,28 @@
         <Alias>receiptInfo</Alias>
         <BusinessObjects isList="true" count="0" />
         <Category />
-        <Columns isList="true" count="22">
-          <value>ORIGINAL,invoice_date,invoice_date,invoice_date,System.String,f8e10d80f7f6453fa7c5521e225b284a</value>
+        <Columns isList="true" count="21">
+          <value>ORIGINAL,logo_path,logo_path,logo_path,System.String,_x0039_9de4286600f4f75a0837d9c17481f4a</value>
           <value>ORIGINAL,invoice_code,invoice_code,invoice_code,System.String,dd97994dbcd94850bec4bd9edb5209de</value>
+          <value>ORIGINAL,invoice_date,invoice_date,invoice_date,System.String,f8e10d80f7f6453fa7c5521e225b284a</value>
+          <value>ORIGINAL,username,username,username,System.String,_x0039_81a2121fa1e442ea11d74415f2a9cb2</value>
+          <value>ORIGINAL,invoice_time,invoice_time,invoice_time,System.String,_x0036_8deffe53b9945e682e91783b438eeee</value>
           <value>ORIGINAL,company_name,company_name,company_name,System.String,_x0038_9fc9d3eb44148afb535109bfc37ced5</value>
-          <value>ORIGINAL,company_tel,company_tel,company_tel,System.String,ffe3ac68d7484e50813cb3f3476ecf6a</value>
           <value>ORIGINAL,company_address,company_address,company_address,System.String,f730ed4f8780460bb3282891a4c26666</value>
+          <value>ORIGINAL,company_tel,company_tel,company_tel,System.String,ffe3ac68d7484e50813cb3f3476ecf6a</value>
           <value>ORIGINAL,person_name,person_name,person_name,System.String,b106406ccf3b4a2c8d7f07ece40482a6</value>
           <value>ORIGINAL,tel,tel,tel,System.String,_x0035_28ab76d8e0f4c7da95968789fe27c3f</value>
           <value>ORIGINAL,address,address,address,System.String,_x0034_bb89938a6c346f08987a460b54c7cf8</value>
+          <value>ORIGINAL,items_quantity,items_quantity,items_quantity,System.String,_x0031_2c55279cff7431fae0297d2ad7854f1</value>
           <value>ORIGINAL,items_sum,items_sum,items_sum,System.String,_x0039_ade5c3bd82b46ecbc5f4dff89be1f66</value>
+          <value>ORIGINAL,info,info,info,System.String,_x0030_e8385da6636461c95624072e1905ec5</value>
           <value>ORIGINAL,discount,discount,discount,System.String,_x0030_86f9320add84c0ca3a1f15225a8c970</value>
           <value>ORIGINAL,tax,tax,tax,System.String,_x0034_0dbb01803aa4189842c1156675dbcdc</value>
           <value>ORIGINAL,total,total,total,System.String,a9f85bed318840d2ad91074b18e326d5</value>
-          <value>ORIGINAL,logo_path,logo_path,logo_path,System.String,_x0039_9de4286600f4f75a0837d9c17481f4a</value>
+          <value>purchase_profit,System.String</value>
           <value>ORIGINAL,previous_payments,previous_payments,previous_payments,System.String,_x0035_f98f84f85d9426f9267f960f5349c01</value>
-          <value>ORIGINAL,username,username,username,System.String,_x0039_81a2121fa1e442ea11d74415f2a9cb2</value>
-          <value>ORIGINAL,invoice_time,invoice_time,invoice_time,System.String,_x0036_8deffe53b9945e682e91783b438eeee</value>
-          <value>ORIGINAL,items_quantity,items_quantity,items_quantity,System.String,_x0031_2c55279cff7431fae0297d2ad7854f1</value>
-          <value>ORIGINAL,receipt_total,receipt_total,receipt_total,System.String,c250c38f01854bbf988714227f133427</value>
           <value>ORIGINAL,remain,remain,remain,System.String,_x0031_e547ce8899146d198b54721fedc6b39</value>
           <value>ORIGINAL,company_note,company_note,company_note,System.String,_x0034_b1d9200267e47d2b0832cd8347b4dca</value>
-          <value>ORIGINAL,info,info,info,System.String,_x0030_e8385da6636461c95624072e1905ec5</value>
-          <value>purchase_profit,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>942867a3bc054bae9ba1398f41fbb1d1</Guid>
@@ -671,10 +671,10 @@
         <receipt_data Ref="44" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid>55b628b454db4d6a887723528d35b11f</BusinessObjectGuid>
-          <ClientRectangle>0,10.21,7.1,0.6</ClientRectangle>
-          <Components isList="true" count="5">
+          <ClientRectangle>0,10.21,7.1,1</ClientRectangle>
+          <Components isList="true" count="6">
             <Text4 Ref="45" type="Text" isKey="true">
-              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Border>Top, Left, Right;Black;1;Solid;False;4;Black</Border>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>4.8,-0.01,2.2,0.5</ClientRectangle>
@@ -685,7 +685,6 @@
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
               <MaxNumberOfLines>2</MaxNumberOfLines>
-              <MaxSize>0,1</MaxSize>
               <Name>Text4</Name>
               <Page isRef="7" />
               <Parent isRef="44" />
@@ -749,7 +748,7 @@
               <Page isRef="7" />
               <Parent isRef="44" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{Persian(receiptItems.tag_price)}</Text>
+              <Text>{Persian(receiptItems.item_price)}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text3>
@@ -772,6 +771,34 @@
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
             </Text16>
+            <Text25a Ref="50" type="Text" isKey="true">
+              <Border>AdvBlack;1;Dot;Black;1;Solid;Black;1;Solid;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
+              <ClientRectangle>4.8,0.59,2.2,0.5</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>_x007B_receiptItems.product_info_x003D__x003D__x0022__x0022__x007D_,[255:255:0],Transparent,Arial_x002C_8,False,False,,,None</value>
+              </Conditions>
+              <Expressions isList="true" count="0" />
+              <Font>B Homa,6</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <MaxNumberOfLines>4</MaxNumberOfLines>
+              <MaxSize>0,1.5</MaxSize>
+              <Name>Text25a</Name>
+              <Page isRef="7" />
+              <Parent isRef="44" />
+              <ShrinkFontToFit>True</ShrinkFontToFit>
+              <ShrinkFontToFitMinimumSize>4</ShrinkFontToFitMinimumSize>
+              <Text>{IIF(receiptItems.product_info == "", "",receiptItems.product_info)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+            </Text25a>
           </Components>
           <Conditions isList="true" count="0" />
           <DataSourceName isNull="true" />
@@ -782,16 +809,16 @@
           <Parent isRef="7" />
           <Sort isList="true" count="0" />
         </receipt_data>
-        <receipt_footer Ref="50" type="FooterBand" isKey="true">
+        <receipt_footer Ref="51" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,11.61,7.1,5.8</ClientRectangle>
+          <ClientRectangle>0,12.01,7.1,5.8</ClientRectangle>
           <Components isList="true" count="3">
-            <pnl_price_details Ref="51" type="Panel" isKey="true">
+            <pnl_price_details Ref="52" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0.79,7.2,3</ClientRectangle>
               <Components isList="true" count="12">
-                <lbl_discount Ref="52" type="Text" isKey="true">
+                <lbl_discount Ref="53" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>2,0.4,1.4,0.5</ClientRectangle>
@@ -802,14 +829,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>lbl_discount</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:تخفیف</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </lbl_discount>
-                <txt_discount Ref="53" type="Text" isKey="true">
+                <txt_discount Ref="54" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>0.2,0.4,1.8,0.5</ClientRectangle>
@@ -821,14 +848,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>txt_discount</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.discount)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </txt_discount>
-                <lbl_tax Ref="54" type="Text" isKey="true">
+                <lbl_tax Ref="55" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>2,1,1.4,0.5</ClientRectangle>
@@ -839,14 +866,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>lbl_tax</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:مالیات</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </lbl_tax>
-                <txt_tax Ref="55" type="Text" isKey="true">
+                <txt_tax Ref="56" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>0.2,1,1.8,0.4</ClientRectangle>
@@ -858,14 +885,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>txt_tax</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.tax)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </txt_tax>
-                <lbl_total_payment Ref="56" type="Text" isKey="true">
+                <lbl_total_payment Ref="57" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>2,1.6,1.4,0.5</ClientRectangle>
@@ -876,14 +903,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>lbl_total_payment</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:جمع خالص</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </lbl_total_payment>
-                <txt_final_payment Ref="57" type="Text" isKey="true">
+                <txt_final_payment Ref="58" type="Text" isKey="true">
                   <Brush>[255:255:255]</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>0.2,1.6,1.8,0.5</ClientRectangle>
@@ -895,11 +922,11 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>txt_final_payment</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.total)}</Text>
                   <TextBrush>Black</TextBrush>
-                  <TextFormat Ref="58" type="NumberFormat" isKey="true">
+                  <TextFormat Ref="59" type="NumberFormat" isKey="true">
                     <DecimalDigits>0</DecimalDigits>
                     <DecimalSeparator>/</DecimalSeparator>
                     <GroupSeparator>,</GroupSeparator>
@@ -909,7 +936,7 @@
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </txt_final_payment>
-                <Text7 Ref="59" type="Text" isKey="true">
+                <Text7 Ref="60" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>5.6,0.4,1.2,0.5</ClientRectangle>
@@ -921,14 +948,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text7</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:توضیحات</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text7>
-                <Text8 Ref="60" type="Text" isKey="true">
+                <Text8 Ref="61" type="Text" isKey="true">
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
                   <ClientRectangle>4,1,2.8,1.1</ClientRectangle>
@@ -940,47 +967,47 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text8</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.info)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text8>
-                <StartPointPrimitive2 Ref="61" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                <StartPointPrimitive2 Ref="62" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
                   <ClientRectangle>3.6,0.2,0,0</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Name>StartPointPrimitive2</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ReferenceToGuid>ae6f278822a74af388e53ca0b5f532b2</ReferenceToGuid>
                 </StartPointPrimitive2>
-                <StartPointPrimitive3 Ref="62" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                <StartPointPrimitive3 Ref="63" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
                   <ClientRectangle>0.2,0.2,0,0</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Name>StartPointPrimitive3</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ReferenceToGuid>46556573c44b4d5f8009da54e4de6a74</ReferenceToGuid>
                 </StartPointPrimitive3>
-                <EndPointPrimitive3 Ref="63" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+                <EndPointPrimitive3 Ref="64" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
                   <ClientRectangle>3.4,2.4,0,0</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Name>EndPointPrimitive3</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ReferenceToGuid>46556573c44b4d5f8009da54e4de6a74</ReferenceToGuid>
                 </EndPointPrimitive3>
-                <EndPointPrimitive2 Ref="64" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+                <EndPointPrimitive2 Ref="65" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
                   <ClientRectangle>7,2.4,0,0</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Name>EndPointPrimitive2</Name>
                   <Page isRef="7" />
-                  <Parent isRef="51" />
+                  <Parent isRef="52" />
                   <ReferenceToGuid>ae6f278822a74af388e53ca0b5f532b2</ReferenceToGuid>
                 </EndPointPrimitive2>
               </Components>
@@ -988,13 +1015,13 @@
               <Expressions isList="true" count="0" />
               <Name>pnl_price_details</Name>
               <Page isRef="7" />
-              <Parent isRef="50" />
+              <Parent isRef="51" />
             </pnl_price_details>
-            <Panel1 Ref="65" type="Panel" isKey="true">
+            <Panel1 Ref="66" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,-0.01,7,0.6</ClientRectangle>
               <Components isList="true" count="4">
-                <txt_products_count Ref="66" type="Text" isKey="true">
+                <txt_products_count Ref="67" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1007,14 +1034,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>txt_products_count</Name>
                   <Page isRef="7" />
-                  <Parent isRef="65" />
+                  <Parent isRef="66" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.items_quantity)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </txt_products_count>
-                <lbl_products_initial_price Ref="67" type="Text" isKey="true">
+                <lbl_products_initial_price Ref="68" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1026,14 +1053,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>lbl_products_initial_price</Name>
                   <Page isRef="7" />
-                  <Parent isRef="65" />
+                  <Parent isRef="66" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:جمع فیش</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </lbl_products_initial_price>
-                <txt_initial_price Ref="68" type="Text" isKey="true">
+                <txt_initial_price Ref="69" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1046,14 +1073,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>txt_initial_price</Name>
                   <Page isRef="7" />
-                  <Parent isRef="65" />
+                  <Parent isRef="66" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.items_sum)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </txt_initial_price>
-                <lbl_products_count Ref="69" type="Text" isKey="true">
+                <lbl_products_count Ref="70" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1065,7 +1092,7 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>lbl_products_count</Name>
                   <Page isRef="7" />
-                  <Parent isRef="65" />
+                  <Parent isRef="66" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:جمع تعداد</Text>
                   <TextBrush>Black</TextBrush>
@@ -1077,13 +1104,13 @@
               <Expressions isList="true" count="0" />
               <Name>Panel1</Name>
               <Page isRef="7" />
-              <Parent isRef="50" />
+              <Parent isRef="51" />
             </Panel1>
-            <Panel2 Ref="70" type="Panel" isKey="true">
+            <Panel2 Ref="71" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0,3.99,7,2.2</ClientRectangle>
               <Components isList="true" count="10">
-                <Text2 Ref="71" type="Text" isKey="true">
+                <Text2 Ref="72" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1094,7 +1121,7 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text2</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:پرداختی شما</Text>
                   <TextBrush>Black</TextBrush>
@@ -1102,7 +1129,7 @@
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text2>
-                <Text6 Ref="72" type="Text" isKey="true">
+                <Text6 Ref="73" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1114,14 +1141,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text6</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.receipt_total)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text6>
-                <Text9 Ref="73" type="Text" isKey="true">
+                <Text9 Ref="74" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1133,7 +1160,7 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text9</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>قابل پرداخت</Text>
                   <TextBrush>Black</TextBrush>
@@ -1141,7 +1168,7 @@
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text9>
-                <Text10 Ref="74" type="Text" isKey="true">
+                <Text10 Ref="75" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1153,14 +1180,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text10</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.total)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text10>
-                <Text11 Ref="75" type="Text" isKey="true">
+                <Text11 Ref="76" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1171,7 +1198,7 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text11</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:مانده فاکتور</Text>
                   <TextBrush>Black</TextBrush>
@@ -1179,7 +1206,7 @@
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text11>
-                <Text12 Ref="76" type="Text" isKey="true">
+                <Text12 Ref="77" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1191,14 +1218,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text12</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.remain)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text12>
-                <Text13 Ref="77" type="Text" isKey="true">
+                <Text13 Ref="78" type="Text" isKey="true">
                   <Border>All;[0:0:0];1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1209,14 +1236,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text13</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>:دریافت / پرداخت</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text13>
-                <Text14 Ref="78" type="Text" isKey="true">
+                <Text14 Ref="79" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1228,14 +1255,14 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text14</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.previous_payments)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
                 </Text14>
-                <Text17 Ref="79" type="Text" isKey="true">
+                <Text17 Ref="80" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
@@ -1247,7 +1274,7 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text17</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>سود شما از خرید</Text>
                   <TextBrush>Black</TextBrush>
@@ -1255,7 +1282,7 @@
                   <Type>Expression</Type>
                   <VertAlignment>Center</VertAlignment>
                 </Text17>
-                <Text18 Ref="80" type="Text" isKey="true">
+                <Text18 Ref="81" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
@@ -1267,7 +1294,7 @@
                   <Margins>0,0,0,0</Margins>
                   <Name>Text18</Name>
                   <Page isRef="7" />
-                  <Parent isRef="70" />
+                  <Parent isRef="71" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
                   <Text>{Persian(receiptInfo.total)}</Text>
                   <TextBrush>Black</TextBrush>
@@ -1279,7 +1306,7 @@
               <Expressions isList="true" count="0" />
               <Name>Panel2</Name>
               <Page isRef="7" />
-              <Parent isRef="50" />
+              <Parent isRef="51" />
             </Panel2>
           </Components>
           <Conditions isList="true" count="0" />
@@ -1288,11 +1315,11 @@
           <Page isRef="7" />
           <Parent isRef="7" />
         </receipt_footer>
-        <ReportSummaryBand1 Ref="81" type="ReportSummaryBand" isKey="true">
+        <ReportSummaryBand1 Ref="82" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,18.21,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,18.61,7.1,1.2</ClientRectangle>
           <Components isList="true" count="3">
-            <Text1 Ref="82" type="Text" isKey="true">
+            <Text1 Ref="83" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <ClientRectangle>0.4,-0.01,6.4,1.2</ClientRectangle>
               <Conditions isList="true" count="0" />
@@ -1302,28 +1329,28 @@
               <Margins>0,0,0,0</Margins>
               <Name>Text1</Name>
               <Page isRef="7" />
-              <Parent isRef="81" />
+              <Parent isRef="82" />
               <Text>{Persian(receiptInfo.company_note)}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text1>
-            <StartPointPrimitive4 Ref="83" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+            <StartPointPrimitive4 Ref="84" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
               <ClientRectangle>0.2,-0.01,0,0</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Name>StartPointPrimitive4</Name>
               <Page isRef="7" />
-              <Parent isRef="81" />
+              <Parent isRef="82" />
               <ReferenceToGuid>c33638daba7d4b91b45ee9ad54357e04</ReferenceToGuid>
             </StartPointPrimitive4>
-            <EndPointPrimitive4 Ref="84" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+            <EndPointPrimitive4 Ref="85" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
               <ClientRectangle>7,1.19,0,0</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Name>EndPointPrimitive4</Name>
               <Page isRef="7" />
-              <Parent isRef="81" />
+              <Parent isRef="82" />
               <ReferenceToGuid>c33638daba7d4b91b45ee9ad54357e04</ReferenceToGuid>
             </EndPointPrimitive4>
           </Components>
@@ -1333,7 +1360,7 @@
           <Page isRef="7" />
           <Parent isRef="7" />
         </ReportSummaryBand1>
-        <RoundedRectanglePrimitive1 Ref="85" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+        <RoundedRectanglePrimitive1 Ref="86" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
           <ClientRectangle>0,0,7,6.8</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
@@ -1344,8 +1371,8 @@
           <Parent isRef="7" />
           <Round>0.2</Round>
         </RoundedRectanglePrimitive1>
-        <RoundedRectanglePrimitive2 Ref="86" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>3.6,12.6,3.4,2.2</ClientRectangle>
+        <RoundedRectanglePrimitive2 Ref="87" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>3.6,13,3.4,2.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1355,8 +1382,8 @@
           <Parent isRef="7" />
           <Round>0.2</Round>
         </RoundedRectanglePrimitive2>
-        <RoundedRectanglePrimitive3 Ref="87" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>0.2,12.6,3.2,2.2</ClientRectangle>
+        <RoundedRectanglePrimitive3 Ref="88" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>0.2,13,3.2,2.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1366,8 +1393,8 @@
           <Parent isRef="7" />
           <Round>0.2</Round>
         </RoundedRectanglePrimitive3>
-        <RoundedRectanglePrimitive4 Ref="88" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>0.2,18.2,6.8,1.2</ClientRectangle>
+        <RoundedRectanglePrimitive4 Ref="89" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
+          <ClientRectangle>0.2,18.6,6.8,1.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1402,10 +1429,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/17/2023 2:54:30 PM</ReportChanged>
+  <ReportChanged>6/18/2023 11:48:06 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmFO.mrt</ReportFile>
-  <ReportGuid>ded21c3010694d04b812ad8b419bcc14</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmFO.mrt</ReportFile>
+  <ReportGuid>9950a56953d14c7bbbf01968b3d6d94d</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
