@@ -645,7 +645,7 @@
                   <Page isRef="7" />
                   <Parent isRef="41" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{Persian(receiptInfo.discount)}</Text>
+                  <Text>{IIF(Persian(receiptInfo.discount)=="","0",Persian(receiptInfo.discount))}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -684,7 +684,7 @@
                   <Page isRef="7" />
                   <Parent isRef="41" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{Persian(receiptInfo.tax)}</Text>
+                  <Text>{IIF(Persian(receiptInfo.tax)=="","0",Persian(receiptInfo.tax))}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -815,7 +815,7 @@
               <Page isRef="7" />
               <Parent isRef="40" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{Persian(receiptInfo.previous_payments)}</Text>
+              <Text>{IIF(Persian(receiptInfo.previous_payments)=="","0",Persian(receiptInfo.previous_payments))}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -889,10 +889,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/15/2023 12:12:54 PM</ReportChanged>
+  <ReportChanged>6/18/2023 12:28:26 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh5cm.mrt</ReportFile>
-  <ReportGuid>ce6d8a64111e49b8bc5672b9799aa6ad</ReportGuid>
+  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh5cm.mrt</ReportFile>
+  <ReportGuid>fdb9f5b92bd8459d952f021277e516b9</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

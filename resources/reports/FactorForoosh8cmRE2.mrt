@@ -1139,7 +1139,7 @@
                   <Page isRef="7" />
                   <Parent isRef="69" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{Persian(receiptInfo.receipt_total)}</Text>
+                  <Text>{IIF(Persian(receiptInfo.receipt_total)=="","0",Persian(receiptInfo.receipt_total))}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1345,10 +1345,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/18/2023 11:57:44 AM</ReportChanged>
+  <ReportChanged>6/18/2023 12:29:28 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmRE2.mrt</ReportFile>
-  <ReportGuid>c658e38881ba4f159810911f726f9421</ReportGuid>
+  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmRE2.mrt</ReportFile>
+  <ReportGuid>80726af003d04554b05e18f121e22a0f</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
