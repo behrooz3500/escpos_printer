@@ -40,7 +40,7 @@
           <value>ORIGINAL,previous_payments,previous_payments,previous_payments,System.String,_x0035_f98f84f85d9426f9267f960f5349c01</value>
           <value>ORIGINAL,username,username,username,System.String,_x0039_81a2121fa1e442ea11d74415f2a9cb2</value>
           <value>ORIGINAL,invoice_time,invoice_time,invoice_time,System.String,_x0036_8deffe53b9945e682e91783b438eeee</value>
-          <value>ORIGINAL,items_count,items_count,items_count,System.String,_x0031_2c55279cff7431fae0297d2ad7854f1</value>
+          <value>ORIGINAL,items_quantity,items_quantity,items_quantity,System.String,_x0031_2c55279cff7431fae0297d2ad7854f1</value>
           <value>ORIGINAL,receipt_total,receipt_total,receipt_total,System.String,c250c38f01854bbf988714227f133427</value>
           <value>ORIGINAL,remain,remain,remain,System.String,_x0031_e547ce8899146d198b54721fedc6b39</value>
           <value>ORIGINAL,company_note,company_note,company_note,System.String,_x0034_b1d9200267e47d2b0832cd8347b4dca</value>
@@ -968,7 +968,7 @@
                   <Page isRef="7" />
                   <Parent isRef="63" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{Persian(receiptInfo.items_count)}</Text>
+                  <Text>{Persian(receiptInfo.items_quantity)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1321,10 +1321,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/15/2023 11:44:49 AM</ReportChanged>
+  <ReportChanged>6/17/2023 2:53:59 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmE.mrt</ReportFile>
-  <ReportGuid>88995a7155df4286a0a72b194edf3f1d</ReportGuid>
+  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmE.mrt</ReportFile>
+  <ReportGuid>85690447c5744b99b64b314b39fd323e</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
