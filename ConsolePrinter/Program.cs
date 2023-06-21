@@ -61,29 +61,25 @@ namespace ConsolePrinter
             catch (FileNotFoundException ex)
             {
                 string error_message = ex.Message.ToLower();
-                if (error_message.Contains("License")) Environment.Exit((int)Constants.ExitCode.LicenseKeyMissed);
-                else if (error_message.Contains(".mrt")) Environment.Exit((int)Constants.ExitCode.ReportNotFound);
-                else if (error_message.Contains(".json")) Environment.Exit((int)Constants.ExitCode.JsonNotFound);
-                else Environment.Exit((int)Constants.ExitCode.UnknownError);
+
+                if (error_message.Contains("License")) Utilities.ErrorManager(ex, Constants.ExitCode.LicenseKeyMissed);
+                else if (error_message.Contains(".mrt")) Utilities.ErrorManager(ex, Constants.ExitCode.ReportNotFound);
+                else if (error_message.Contains(".json")) Utilities.ErrorManager(ex, Constants.ExitCode.JsonNotFound);
+                else Utilities.ErrorManager(ex, Constants.ExitCode.UnknownFileNotFound);
             }
 
-            catch (Utilities.PrinterNotFoundException)
+            catch (Utilities.PrinterNotFoundException ex)
             {
-                Environment.Exit((int)Constants.ExitCode.PrinterNotFound);
+                Utilities.ErrorManager(ex, Constants.ExitCode.PrinterNotFound);
             }
 
-            catch (IndexOutOfRangeException)
+            catch (IndexOutOfRangeException ex)
             {
-                Environment.Exit((int)Constants.ExitCode.NoArgumentFound);
+                Utilities.ErrorManager(ex, Constants.ExitCode.NoArgumentFound);
             }
 
             catch (Exception ex) {
-                Console.WriteLine(ex.GetType());
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.ToString());
-
-                Environment.Exit((int)Constants.ExitCode.UnknownError);
-                              
+                Utilities.ErrorManager(ex, Constants.ExitCode.UnknownError);
             }
         }
 
