@@ -33,6 +33,7 @@ namespace ConsolePrinter
             LicenseKeyMissed = 14,
             UnknownError = 15,
             NoArgumentFound = 16,
+            UnknownFileNotFound = 17,
         }
     }
 }
