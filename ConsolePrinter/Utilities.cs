@@ -54,5 +54,13 @@ namespace ConsolePrinter
             return jsonContents;
         }
 
+        internal static void ErrorManager(Exception ex, Constants.ExitCode exitCode) {
+            /// Managing return message based on the type of exception raised
+            string errorMessage = ex.Message.ToLower();
+            Console.WriteLine(exitCode.ToString());
+            Console.Error.WriteLine(errorMessage);
+            Environment.Exit((int)exitCode);
+        }
+
     }
 }
