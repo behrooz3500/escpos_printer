@@ -13,7 +13,7 @@
           <value>ORIGINAL,item_quantity,item_quantity,item_quantity,System.String,_x0037_7c97a56469f489eb38d5b7d49aa63c0</value>
           <value>ORIGINAL,product_name,product_name,product_name,System.String,_x0039_97a474da4ce481d992acb181d0e373a</value>
           <value>ORIGINAL,item_total,item_total,item_total,System.String,bf0dc9d4c4c545b6b5bce47a35b7962d</value>
-          <value>ORIGINAL,product_info,product_info,product_info,System.String,d7111a0c648d4fbf81e96c2d6fd3a823</value>
+          <value>ORIGINAL,item_info,item_info,item_info,System.String,d7111a0c648d4fbf81e96c2d6fd3a823</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>55b628b454db4d6a887723528d35b11f</Guid>
@@ -954,7 +954,7 @@
               <Parent isRef="57" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
               <ShrinkFontToFitMinimumSize>4</ShrinkFontToFitMinimumSize>
-              <Text>{IIF(receiptItems.product_info == "", "",receiptItems.product_info)}</Text>
+              <Text>{IIF(receiptItems.item_info == "", "",receiptItems.item_info)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
@@ -1345,10 +1345,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/18/2023 12:29:28 PM</ReportChanged>
+  <ReportChanged>6/22/2023 8:34:48 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmRE2.mrt</ReportFile>
-  <ReportGuid>80726af003d04554b05e18f121e22a0f</ReportGuid>
+  <ReportGuid>39619d77fbbc4c059f0e2f7df7a451a5</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

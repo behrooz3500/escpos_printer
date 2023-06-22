@@ -13,7 +13,7 @@
           <value>ORIGINAL,item_quantity,item_quantity,item_quantity,System.String,_x0037_7c97a56469f489eb38d5b7d49aa63c0</value>
           <value>ORIGINAL,product_name,product_name,product_name,System.String,_x0039_97a474da4ce481d992acb181d0e373a</value>
           <value>ORIGINAL,item_total,item_total,item_total,System.String,_x0038_a5baee064f648b9ae5f0ac84869b890</value>
-          <value>product_info,System.String</value>
+          <value>item_info,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>55b628b454db4d6a887723528d35b11f</Guid>
@@ -753,7 +753,7 @@
               <Parent isRef="43" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
               <ShrinkFontToFitMinimumSize>4</ShrinkFontToFitMinimumSize>
-              <Text>{IIF(receiptItems.product_info == "", "",receiptItems.product_info)}</Text>
+              <Text>{IIF(receiptItems.item_info == "", "",receiptItems.item_info)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
@@ -1349,10 +1349,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/18/2023 12:24:01 PM</ReportChanged>
+  <ReportChanged>6/22/2023 8:32:34 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmE.mrt</ReportFile>
-  <ReportGuid>df6463ba7d544554978e3516a367ef53</ReportGuid>
+  <ReportGuid>28618047c9204c43ab3662b70aa4126f</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

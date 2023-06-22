@@ -11,7 +11,7 @@
         <Columns isList="true" count="3">
           <value>ORIGINAL,item_quantity,item_quantity,item_quantity,System.String,_x0037_7c97a56469f489eb38d5b7d49aa63c0</value>
           <value>ORIGINAL,product_name,product_name,product_name,System.String,_x0039_97a474da4ce481d992acb181d0e373a</value>
-          <value>ORIGINAL,product_info,product_info,product_info,System.String,c0214952ede548fc93f74e579edcb3c2</value>
+          <value>ORIGINAL,item_info,item_info,item_info,System.String,c0214952ede548fc93f74e579edcb3c2</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>55b628b454db4d6a887723528d35b11f</Guid>
@@ -886,7 +886,7 @@
               <Parent isRef="55" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
               <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
-              <Text>{Persian(receiptItems.product_info)}</Text>
+              <Text>{Persian(receiptItems.item_info)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -1065,10 +1065,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/18/2023 12:22:16 PM</ReportChanged>
+  <ReportChanged>6/22/2023 8:31:38 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmAS.mrt</ReportFile>
-  <ReportGuid>b0c2cd56546a47bfa955ed2b96f3c988</ReportGuid>
+  <ReportGuid>42f56987f4344dce9dec0d7675877eac</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
