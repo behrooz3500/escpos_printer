@@ -25,7 +25,7 @@
         <Alias>receiptInfo</Alias>
         <BusinessObjects isList="true" count="0" />
         <Category />
-        <Columns isList="true" count="21">
+        <Columns isList="true" count="22">
           <value>ORIGINAL,logo_path,logo_path,logo_path,System.String,_x0039_9de4286600f4f75a0837d9c17481f4a</value>
           <value>ORIGINAL,invoice_code,invoice_code,invoice_code,System.String,dd97994dbcd94850bec4bd9edb5209de</value>
           <value>ORIGINAL,invoice_date,invoice_date,invoice_date,System.String,f8e10d80f7f6453fa7c5521e225b284a</value>
@@ -47,6 +47,7 @@
           <value>ORIGINAL,previous_payments,previous_payments,previous_payments,System.String,_x0035_f98f84f85d9426f9267f960f5349c01</value>
           <value>ORIGINAL,remain,remain,remain,System.String,_x0031_e547ce8899146d198b54721fedc6b39</value>
           <value>ORIGINAL,company_note,company_note,company_note,System.String,_x0034_b1d9200267e47d2b0832cd8347b4dca</value>
+          <value>receipt_total,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Guid>942867a3bc054bae9ba1398f41fbb1d1</Guid>
@@ -1429,10 +1430,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/18/2023 12:25:35 PM</ReportChanged>
+  <ReportChanged>6/22/2023 8:19:37 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmFO.mrt</ReportFile>
-  <ReportGuid>58a4c128c80a4d5e98dba73900b0127f</ReportGuid>
+  <ReportGuid>16096090a0cf4afc8f06198c966b5428</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
