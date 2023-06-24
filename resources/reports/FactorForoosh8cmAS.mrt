@@ -833,7 +833,7 @@
               <ClientRectangle>4,-0.01,3,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -875,7 +875,7 @@
               <ClientRectangle>0,-0.01,3.2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -1065,10 +1065,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/22/2023 8:31:38 AM</ReportChanged>
+  <ReportChanged>6/24/2023 3:00:26 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmAS.mrt</ReportFile>
-  <ReportGuid>42f56987f4344dce9dec0d7675877eac</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmAS.mrt</ReportFile>
+  <ReportGuid>8257c46f7d4f49d08c15244a9340ab6f</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

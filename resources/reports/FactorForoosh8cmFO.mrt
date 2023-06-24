@@ -681,7 +681,7 @@
               <ClientRectangle>4.8,-0.01,2.2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -722,7 +722,7 @@
               <ClientRectangle>0,-0.01,1.6,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -741,7 +741,7 @@
               <ClientRectangle>3,-0.01,1.4,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -760,7 +760,7 @@
               <ClientRectangle>1.6,-0.01,1.4,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -797,7 +797,6 @@
               <Text>{IIF(receiptItems.item_info == "", "",receiptItems.item_info)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text25a>
           </Components>
@@ -843,7 +842,7 @@
                   <ClientRectangle>0.2,0.4,1.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -880,7 +879,7 @@
                   <ClientRectangle>0.2,1,1.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -917,7 +916,7 @@
                   <ClientRectangle>0.2,1.6,1.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -962,7 +961,7 @@
                   <ClientRectangle>4,1,2.8,1.1</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -1068,7 +1067,7 @@
                   <ClientRectangle>0,0,1.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -1137,7 +1136,7 @@
                   <ClientRectangle>3.6,1.4,2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text6</Name>
@@ -1176,7 +1175,7 @@
                   <ClientRectangle>0.2,0,2.2,0.7</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text10</Name>
@@ -1214,7 +1213,7 @@
                   <ClientRectangle>0.2,1.4,1.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text12</Name>
@@ -1251,7 +1250,7 @@
                   <ClientRectangle>0.2,0.8,4.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text14</Name>
@@ -1290,7 +1289,7 @@
                   <ClientRectangle>3.8,0,2.2,0.7</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text18</Name>
@@ -1430,10 +1429,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 8:20:18 AM</ReportChanged>
+  <ReportChanged>6/24/2023 2:58:54 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmFO.mrt</ReportFile>
-  <ReportGuid>cc639e73280b460db642f594c1e09fb5</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmFO.mrt</ReportFile>
+  <ReportGuid>8ee3885804e34031b6e15dcbbb512cec</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

@@ -650,7 +650,7 @@
         <receipt_data Ref="43" type="DataBand" isKey="true">
           <Brush>Transparent</Brush>
           <BusinessObjectGuid>55b628b454db4d6a887723528d35b11f</BusinessObjectGuid>
-          <ClientRectangle>0,10.21,7.1,1.4</ClientRectangle>
+          <ClientRectangle>0,10.21,7.1,0.8</ClientRectangle>
           <Components isList="true" count="5">
             <Text4 Ref="44" type="Text" isKey="true">
               <Border>All;Black;1;Solid;False;4;Black</Border>
@@ -659,7 +659,7 @@
               <ClientRectangle>4.2,-0.01,2.8,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -700,7 +700,7 @@
               <ClientRectangle>0,-0.01,2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -719,7 +719,7 @@
               <ClientRectangle>2,-0.01,1.6,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
-              <Font>B Homa,7</Font>
+              <Font>B Homa,8</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -742,7 +742,7 @@
                 <value>_x007B_receiptItems.item_info_x003D__x003D__x0022__x0022__x007D_,[255:255:0],Transparent,Arial_x002C_8,False,False,,,None</value>
               </Conditions>
               <Expressions isList="true" count="0" />
-              <Font>B Homa,6</Font>
+              <Font>B Homa,7</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Right</HorAlignment>
               <Margins>0,0,0,0</Margins>
@@ -756,7 +756,6 @@
               <Text>{IIF(receiptItems.item_info == "", "",receiptItems.item_info)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
             </Text25a>
           </Components>
@@ -771,7 +770,7 @@
         </receipt_data>
         <receipt_footer Ref="49" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,12.41,7.1,5.8</ClientRectangle>
+          <ClientRectangle>0,11.81,7.1,5.8</ClientRectangle>
           <Components isList="true" count="3">
             <pnl_price_details Ref="50" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
@@ -802,7 +801,7 @@
                   <ClientRectangle>0.2,0.4,1.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -839,7 +838,7 @@
                   <ClientRectangle>0.2,1,1.8,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -876,7 +875,7 @@
                   <ClientRectangle>0.2,1.6,1.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -921,7 +920,7 @@
                   <ClientRectangle>4,1,2.8,1.1</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -1027,7 +1026,7 @@
                   <ClientRectangle>0,0,2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
@@ -1096,14 +1095,14 @@
                   <ClientRectangle>3.6,1.4,2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text6</Name>
                   <Page isRef="7" />
                   <Parent isRef="69" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{IIF(Persian(receiptInfo.receipt_total)==0,"0",Persian(receiptInfo.receipt_total))}</Text>
+                  <Text>{IIF(Persian(receiptInfo.receipt_total)=="0","0",Persian(receiptInfo.receipt_total))}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1134,7 +1133,7 @@
                   <ClientRectangle>0.2,0.2,4.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text10</Name>
@@ -1172,7 +1171,7 @@
                   <ClientRectangle>0.2,1.4,1.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text12</Name>
@@ -1209,7 +1208,7 @@
                   <ClientRectangle>0.2,0.8,4.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
-                  <Font>B Homa,7</Font>
+                  <Font>B Homa,8</Font>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text14</Name>
@@ -1237,7 +1236,7 @@
         </receipt_footer>
         <ReportSummaryBand1 Ref="78" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,19.01,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,18.41,7.1,1.2</ClientRectangle>
           <Components isList="true" count="3">
             <Text1 Ref="79" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1292,7 +1291,7 @@
           <Round>0.2</Round>
         </RoundedRectanglePrimitive1>
         <RoundedRectanglePrimitive2 Ref="83" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>3.6,13.4,3.4,2.2</ClientRectangle>
+          <ClientRectangle>3.6,12.8,3.4,2.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1303,7 +1302,7 @@
           <Round>0.2</Round>
         </RoundedRectanglePrimitive2>
         <RoundedRectanglePrimitive3 Ref="84" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>0.2,13.4,3.2,2.2</ClientRectangle>
+          <ClientRectangle>0.2,12.8,3.2,2.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1314,7 +1313,7 @@
           <Round>0.2</Round>
         </RoundedRectanglePrimitive3>
         <RoundedRectanglePrimitive4 Ref="85" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>0.2,19,6.8,1.2</ClientRectangle>
+          <ClientRectangle>0.2,18.4,6.8,1.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1349,10 +1348,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 8:19:12 AM</ReportChanged>
+  <ReportChanged>6/24/2023 2:56:49 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmE.mrt</ReportFile>
-  <ReportGuid>c965c91040e74f87af379432cf078d00</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmE.mrt</ReportFile>
+  <ReportGuid>8437fcc8bae647e1aa4475db49554c0d</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
