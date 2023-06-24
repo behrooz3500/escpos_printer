@@ -840,11 +840,13 @@
               <Font>B Homa,8</Font>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
+              <MaxNumberOfLines>3</MaxNumberOfLines>
               <Name>Text1</Name>
               <Page isRef="7" />
               <Parent isRef="53" />
               <Text>{Persian(receiptInfo.company_note)}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
             </Text1>
           </Components>
@@ -890,10 +892,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 2:24:31 PM</ReportChanged>
+  <ReportChanged>6/24/2023 3:04:39 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>C:\temp\FactorForoosh5cm.mrt</ReportFile>
-  <ReportGuid>005874817051407e9a12935ad11183fd</ReportGuid>
+  <ReportGuid>70ca666047b74303b93536d8c419f38f</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
