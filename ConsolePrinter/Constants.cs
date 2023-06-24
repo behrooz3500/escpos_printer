@@ -34,6 +34,7 @@ namespace ConsolePrinter
             UnknownError = 15,
             NoArgumentFound = 16,
             UnknownFileNotFound = 17,
+            ErrorInReportCompilation = 18,
         }
     }
 }
