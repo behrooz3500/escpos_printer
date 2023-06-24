@@ -816,7 +816,7 @@
               <Page isRef="7" />
               <Parent isRef="40" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <Text>{IIF(Persian(receiptInfo.previous_payments)=="","0",Persian(receiptInfo.receipt_total))}</Text>
+              <Text>{IIF(Persian(receiptInfo.receipt_total)=="","0",Persian(receiptInfo.receipt_total))}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -892,10 +892,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 3:04:39 PM</ReportChanged>
+  <ReportChanged>6/24/2023 4:56:44 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>C:\temp\FactorForoosh5cm.mrt</ReportFile>
-  <ReportGuid>70ca666047b74303b93536d8c419f38f</ReportGuid>
+  <ReportGuid>a245d032d8834729a83533efc87adaf0</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
