@@ -974,7 +974,7 @@
         </receipt_data>
         <receipt_footer Ref="62" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,15.61,7.1,4</ClientRectangle>
+          <ClientRectangle>0,15.61,7.1,4.4</ClientRectangle>
           <Components isList="true" count="12">
             <Panel1 Ref="63" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
@@ -1450,7 +1450,7 @@
         </receipt_footer>
         <ReportSummaryBand1 Ref="91" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,20.41,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,20.81,7.1,1.2</ClientRectangle>
           <Components isList="true" count="3">
             <Text1 Ref="92" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1508,7 +1508,7 @@
           <Round>0.2</Round>
         </RoundedRectanglePrimitive1>
         <RoundedRectanglePrimitive4 Ref="96" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>0.2,20.4,6.8,1.2</ClientRectangle>
+          <ClientRectangle>0.2,20.8,6.8,1.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1554,10 +1554,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 3:06:07 PM</ReportChanged>
+  <ReportChanged>6/24/2023 5:01:50 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmRE.mrt</ReportFile>
-  <ReportGuid>9c9addd861864a249acc847a68c81732</ReportGuid>
+  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmRE.mrt</ReportFile>
+  <ReportGuid>115261806f104396873809f2165e9db9</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
