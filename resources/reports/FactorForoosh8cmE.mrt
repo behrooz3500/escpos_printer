@@ -1215,7 +1215,7 @@
                   <Page isRef="7" />
                   <Parent isRef="69" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>{Persian(receiptInfo.previous_payments)}</Text>
+                  <Text>{Persian(receiptInfo.receipt_total)}</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1350,10 +1350,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 3:05:08 PM</ReportChanged>
+  <ReportChanged>6/24/2023 5:00:45 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmE.mrt</ReportFile>
-  <ReportGuid>e156f1bdda2c4e8e9284b4f553ebeee8</ReportGuid>
+  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmE.mrt</ReportFile>
+  <ReportGuid>86d90fd33f2643dfac3436cf686a84f9</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
