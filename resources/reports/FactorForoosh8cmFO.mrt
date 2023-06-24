@@ -780,7 +780,7 @@
               <CanShrink>True</CanShrink>
               <ClientRectangle>4.8,0.59,2.2,0.5</ClientRectangle>
               <Conditions isList="true" count="1">
-                <value>_x007B_receiptItems.product_info_x003D__x003D__x0022__x0022__x007D_,[255:255:0],Transparent,Arial_x002C_8,False,False,,,None</value>
+                <value>_x007B_receiptItems.item_info_x003D__x003D__x0022__x0022__x007D_,[255:255:0],Transparent,Arial_x002C_8,False,False,,,None</value>
               </Conditions>
               <Expressions isList="true" count="0" />
               <Font>B Homa,6</Font>
@@ -1430,10 +1430,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/22/2023 8:33:17 AM</ReportChanged>
+  <ReportChanged>6/24/2023 8:20:18 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmFO.mrt</ReportFile>
-  <ReportGuid>205ba6ae21234383b13170f0da7ad387</ReportGuid>
+  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmFO.mrt</ReportFile>
+  <ReportGuid>cc639e73280b460db642f594c1e09fb5</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
