@@ -970,7 +970,7 @@
         </receipt_data>
         <receipt_footer Ref="63" type="FooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,14.21,7.1,2.2</ClientRectangle>
+          <ClientRectangle>0,14.21,7.1,2.4</ClientRectangle>
           <Components isList="true" count="2">
             <Panel1 Ref="64" type="Panel" isKey="true">
               <Brush>Transparent</Brush>
@@ -1074,6 +1074,7 @@
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,6</Font>
+                  <GrowToHeight>True</GrowToHeight>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text112</Name>
                   <Page isRef="7" />
@@ -1112,6 +1113,7 @@
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,6</Font>
+                  <GrowToHeight>True</GrowToHeight>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text13</Name>
                   <Page isRef="7" />
@@ -1150,6 +1152,7 @@
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,6</Font>
+                  <GrowToHeight>True</GrowToHeight>
                   <Margins>0,0,0,0</Margins>
                   <Name>Text23</Name>
                   <Page isRef="7" />
@@ -1214,7 +1217,7 @@
         </receipt_footer>
         <ReportSummaryBand1 Ref="78" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,17.21,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,17.41,7.1,1.2</ClientRectangle>
           <Components isList="true" count="5">
             <Text1 Ref="79" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1290,7 +1293,7 @@
           <Round>0.2</Round>
         </RoundedRectanglePrimitive1>
         <RoundedRectanglePrimitive4 Ref="85" type="Stimulsoft.Report.Components.StiRoundedRectanglePrimitive" isKey="true">
-          <ClientRectangle>0.2,17.2,6.8,1.2</ClientRectangle>
+          <ClientRectangle>0.2,17.4,6.8,1.2</ClientRectangle>
           <Color>Black</Color>
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
@@ -1346,10 +1349,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 3:06:29 PM</ReportChanged>
+  <ReportChanged>6/24/2023 5:03:20 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmRE2.mrt</ReportFile>
-  <ReportGuid>e62a381c23a947768937be4566fcd11c</ReportGuid>
+  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmRE2.mrt</ReportFile>
+  <ReportGuid>af1f49c9f83e43759de431cf07513eec</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
