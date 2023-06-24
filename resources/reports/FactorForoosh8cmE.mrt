@@ -663,12 +663,12 @@
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
-              <MaxNumberOfLines>2</MaxNumberOfLines>
+              <MaxNumberOfLines>3</MaxNumberOfLines>
               <Name>Text4</Name>
               <Page isRef="7" />
               <Parent isRef="43" />
               <ShrinkFontToFit>True</ShrinkFontToFit>
-              <ShrinkFontToFitMinimumSize>5</ShrinkFontToFitMinimumSize>
+              <ShrinkFontToFitMinimumSize>4</ShrinkFontToFitMinimumSize>
               <Text>{receiptItems.product_name}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
@@ -1350,10 +1350,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 5:00:45 PM</ReportChanged>
+  <ReportChanged>6/24/2023 6:30:27 PM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\Users\Mehrdad\Documents\C#\Learning\3\ConsolePrinter\escpos_printer\resources\reports\FactorForoosh8cmE.mrt</ReportFile>
-  <ReportGuid>86d90fd33f2643dfac3436cf686a84f9</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmE.mrt</ReportFile>
+  <ReportGuid>5e4fb824f9ba49598ec83c6ab75b2616</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
