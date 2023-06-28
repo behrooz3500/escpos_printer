@@ -866,6 +866,7 @@
               <ShrinkFontToFit>True</ShrinkFontToFit>
               <Text>{Persian(receiptItems.item_quantity)}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
             </Text5>
             <header_product_price Ref="58" type="Text" isKey="true">
@@ -1068,10 +1069,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/28/2023 10:16:39 AM</ReportChanged>
+  <ReportChanged>6/28/2023 10:24:06 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
   <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmAS.mrt</ReportFile>
-  <ReportGuid>1ec05c528bc84feaa3e69e5e83587d5d</ReportGuid>
+  <ReportGuid>b5b40513efb4463ea8d6a50a49a7f7c4</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
