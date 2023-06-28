@@ -779,7 +779,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[191:191:191]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>4,-0.01,0.4,0.5</ClientRectangle>
+              <ClientRectangle>3.6,-0.01,0.8,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Titr,6</Font>
@@ -800,7 +800,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[191:191:191]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,-0.01,2.2,0.5</ClientRectangle>
+              <ClientRectangle>0,-0.01,2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Titr,8</Font>
@@ -818,7 +818,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[191:191:191]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>2.2,-0.01,1.8,0.5</ClientRectangle>
+              <ClientRectangle>2,-0.01,1.6,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Titr,8</Font>
@@ -874,13 +874,14 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>4,-0.01,0.4,0.5</ClientRectangle>
+              <ClientRectangle>3.6,-0.01,0.8,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Homa,6</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
+              <MaxNumberOfLines>1</MaxNumberOfLines>
               <Name>Text5</Name>
               <Page isRef="7" />
               <Parent isRef="56" />
@@ -895,7 +896,7 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,-0.01,2.2,0.5</ClientRectangle>
+              <ClientRectangle>0,-0.01,2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Homa,8</Font>
@@ -918,7 +919,7 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>2.2,-0.01,1.8,0.5</ClientRectangle>
+              <ClientRectangle>2,-0.01,1.6,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Homa,8</Font>
@@ -983,15 +984,16 @@
               <Components isList="true" count="4">
                 <txt_products_count Ref="64" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
-                  <Brush>[191:191:191]</Brush>
+                  <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>4,0,0.4,0.5</ClientRectangle>
+                  <ClientRectangle>3.6,0,0.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,7</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
+                  <MaxNumberOfLines>1</MaxNumberOfLines>
                   <Name>txt_products_count</Name>
                   <Page isRef="7" />
                   <Parent isRef="63" />
@@ -1015,7 +1017,7 @@
                   <Page isRef="7" />
                   <Parent isRef="63" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>:جمع تعداد</Text>
+                  <Text>جمع تعداد</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1024,7 +1026,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>2.2,0,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>2,0,1.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,8</Font>
@@ -1034,7 +1036,7 @@
                   <Page isRef="7" />
                   <Parent isRef="63" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>:جمع</Text>
+                  <Text>جمع</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1043,7 +1045,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>0,0,2.2,0.5</ClientRectangle>
+                  <ClientRectangle>0,0,2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,8</Font>
@@ -1070,12 +1072,12 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0,0.59,7.2,2</ClientRectangle>
-              <Components isList="true" count="9">
+              <Components isList="true" count="8">
                 <lbl_discount Ref="69" type="Text" isKey="true">
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>2.2,0,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>2,0,1.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,8</Font>
@@ -1085,7 +1087,7 @@
                   <Page isRef="7" />
                   <Parent isRef="68" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>:تخفیف</Text>
+                  <Text>تخفیف</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1094,7 +1096,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>0,0,2.2,0.5</ClientRectangle>
+                  <ClientRectangle>0,0,2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,8</Font>
@@ -1114,7 +1116,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>2.2,0.6,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>2,0.6,1.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,8</Font>
@@ -1124,7 +1126,7 @@
                   <Page isRef="7" />
                   <Parent isRef="68" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>:مالیات</Text>
+                  <Text>مالیات</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1133,7 +1135,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>0,0.6,2.2,0.4</ClientRectangle>
+                  <ClientRectangle>0,0.6,2,0.4</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,8</Font>
@@ -1153,7 +1155,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>2.2,1.2,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>2,1.2,1.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,8</Font>
@@ -1163,7 +1165,7 @@
                   <Page isRef="7" />
                   <Parent isRef="68" />
                   <ShrinkFontToFit>True</ShrinkFontToFit>
-                  <Text>:جمع خالص</Text>
+                  <Text>جمع خالص</Text>
                   <TextBrush>Black</TextBrush>
                   <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                   <Type>Expression</Type>
@@ -1172,7 +1174,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[255:255:255]</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>0,1.2,2.2,0.5</ClientRectangle>
+                  <ClientRectangle>0,1.2,2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,8</Font>
@@ -1199,12 +1201,12 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>4,0,3,1.6</ClientRectangle>
-                  <Components isList="true" count="2">
+                  <ClientRectangle>3.6,0,3.4,1.6</ClientRectangle>
+                  <Components isList="true" count="3">
                     <Text7 Ref="77" type="Text" isKey="true">
                       <Brush>Transparent</Brush>
                       <CanGrow>True</CanGrow>
-                      <ClientRectangle>1.6,0,1.2,0.5</ClientRectangle>
+                      <ClientRectangle>2.2,0,1.2,0.5</ClientRectangle>
                       <Conditions isList="true" count="0" />
                       <Expressions isList="true" count="0" />
                       <Font>B Titr,8</Font>
@@ -1223,7 +1225,7 @@
                     <Text8 Ref="78" type="Text" isKey="true">
                       <Brush>Transparent</Brush>
                       <CanGrow>True</CanGrow>
-                      <ClientRectangle>0,0.6,2.8,1.1</ClientRectangle>
+                      <ClientRectangle>0,0.6,3.4,1.1</ClientRectangle>
                       <Conditions isList="true" count="0" />
                       <Expressions isList="true" count="0" />
                       <Font>B Homa,8</Font>
@@ -1239,6 +1241,15 @@
                       <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
                       <Type>Expression</Type>
                     </Text8>
+                    <StartPointPrimitive6 Ref="79" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+                      <ClientRectangle>0,0.2,0,0</ClientRectangle>
+                      <Conditions isList="true" count="0" />
+                      <Expressions isList="true" count="0" />
+                      <Name>StartPointPrimitive6</Name>
+                      <Page isRef="7" />
+                      <Parent isRef="76" />
+                      <ReferenceToGuid>f69764e44b2348228fa108c974479d6e</ReferenceToGuid>
+                    </StartPointPrimitive6>
                   </Components>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
@@ -1247,15 +1258,6 @@
                   <Page isRef="7" />
                   <Parent isRef="68" />
                 </Panel2>
-                <StartPointPrimitive6 Ref="79" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
-                  <ClientRectangle>3.6,0.2,0,0</ClientRectangle>
-                  <Conditions isList="true" count="0" />
-                  <Expressions isList="true" count="0" />
-                  <Name>StartPointPrimitive6</Name>
-                  <Page isRef="7" />
-                  <Parent isRef="68" />
-                  <ReferenceToGuid>f69764e44b2348228fa108c974479d6e</ReferenceToGuid>
-                </StartPointPrimitive6>
                 <StartPointPrimitive7 Ref="80" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
                   <ClientRectangle>0.2,0.2,0,0</ClientRectangle>
                   <Conditions isList="true" count="0" />
@@ -1555,10 +1557,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/28/2023 10:22:22 AM</ReportChanged>
+  <ReportChanged>6/28/2023 11:25:24 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmRE.mrt</ReportFile>
-  <ReportGuid>49b30382c1194c61b5c9a74ae74df4a7</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmRE.mrt</ReportFile>
+  <ReportGuid>2e4be36ce48343368f47db9e52d8cc43</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

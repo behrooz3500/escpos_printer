@@ -775,7 +775,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[191:191:191]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>4,-0.01,0.4,0.5</ClientRectangle>
+              <ClientRectangle>3.6,-0.01,0.8,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Titr,6</Font>
@@ -796,7 +796,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[191:191:191]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,-0.01,2.2,0.5</ClientRectangle>
+              <ClientRectangle>0,-0.01,2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Titr,8</Font>
@@ -814,7 +814,7 @@
               <Border>All;Black;1;Solid;False;4;Black</Border>
               <Brush>[191:191:191]</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>2,-0.01,2,0.5</ClientRectangle>
+              <ClientRectangle>2,-0.01,1.6,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Titr,8</Font>
@@ -870,13 +870,14 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>4,-0.01,0.4,0.5</ClientRectangle>
+              <ClientRectangle>3.6,-0.01,0.8,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Homa,6</Font>
               <GrowToHeight>True</GrowToHeight>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0,0</Margins>
+              <MaxNumberOfLines>1</MaxNumberOfLines>
               <Name>Text5</Name>
               <Page isRef="7" />
               <Parent isRef="57" />
@@ -891,7 +892,7 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>0,-0.01,2.2,0.5</ClientRectangle>
+              <ClientRectangle>0,-0.01,2,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Homa,8</Font>
@@ -914,7 +915,7 @@
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <CanShrink>True</CanShrink>
-              <ClientRectangle>2.2,-0.01,1.8,0.5</ClientRectangle>
+              <ClientRectangle>2,-0.01,1.6,0.5</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Expressions isList="true" count="0" />
               <Font>B Homa,8</Font>
@@ -981,13 +982,14 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>4,0,0.4,0.5</ClientRectangle>
+                  <ClientRectangle>3.6,0,0.8,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,7</Font>
                   <GrowToHeight>True</GrowToHeight>
                   <HorAlignment>Center</HorAlignment>
                   <Margins>0,0,0,0</Margins>
+                  <MaxNumberOfLines>1</MaxNumberOfLines>
                   <Name>txt_products_count</Name>
                   <Page isRef="7" />
                   <Parent isRef="64" />
@@ -1020,7 +1022,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>2.2,0,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>2.2,0,1.4,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,8</Font>
@@ -1071,7 +1073,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>4,0.2,3,0.5</ClientRectangle>
+                  <ClientRectangle>3.6,0.2,3.4,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,6</Font>
@@ -1091,7 +1093,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>0,0.2,4,0.5</ClientRectangle>
+                  <ClientRectangle>0,0.2,3.6,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,8</Font>
@@ -1160,7 +1162,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>Transparent</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>4,0.2,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>3.6,0.2,2.2,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Homa,8</Font>
@@ -1180,7 +1182,7 @@
                   <Border>All;Black;1;Solid;False;4;Black</Border>
                   <Brush>[191:191:191]</Brush>
                   <CanGrow>True</CanGrow>
-                  <ClientRectangle>2.2,0.2,1.8,0.5</ClientRectangle>
+                  <ClientRectangle>2.2,0.2,1.4,0.5</ClientRectangle>
                   <Conditions isList="true" count="0" />
                   <Expressions isList="true" count="0" />
                   <Font>B Titr,6</Font>
@@ -1364,10 +1366,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/28/2023 10:23:21 AM</ReportChanged>
+  <ReportChanged>6/28/2023 11:27:53 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmRE2.mrt</ReportFile>
-  <ReportGuid>9c9632320b5b4dca8cad0a74a486a444</ReportGuid>
+  <ReportFile>C:\temp\FactorForoosh8cmRE2.mrt</ReportFile>
+  <ReportGuid>6da961b2781a467489314f078ec8624c</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
