@@ -964,7 +964,7 @@
         </receipt_footer>
         <ReportSummaryBand1 Ref="63" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,17.01,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,17.01,7.1,2.8</ClientRectangle>
           <Components isList="true" count="3">
             <Text1 Ref="64" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1050,7 +1050,7 @@
       <LargeHeightFactor>2</LargeHeightFactor>
       <Margins>0.2,0.2,0.5,0</Margins>
       <Name>Page1</Name>
-      <PageHeight>20</PageHeight>
+      <PageHeight>25</PageHeight>
       <PageWidth>7.5</PageWidth>
       <Report isRef="0" />
       <UnlimitedBreakable>False</UnlimitedBreakable>
@@ -1068,10 +1068,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 3:06:46 PM</ReportChanged>
+  <ReportChanged>6/28/2023 10:16:39 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmAS.mrt</ReportFile>
-  <ReportGuid>803784205c304c278253c25da4e31336</ReportGuid>
+  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmAS.mrt</ReportFile>
+  <ReportGuid>1ec05c528bc84feaa3e69e5e83587d5d</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>

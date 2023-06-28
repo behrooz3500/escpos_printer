@@ -1236,7 +1236,7 @@
         </receipt_footer>
         <ReportSummaryBand1 Ref="78" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,18.41,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,18.41,7.1,2.6</ClientRectangle>
           <Components isList="true" count="3">
             <Text1 Ref="79" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1350,10 +1350,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 6:30:27 PM</ReportChanged>
+  <ReportChanged>6/28/2023 10:18:41 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmE.mrt</ReportFile>
-  <ReportGuid>5e4fb824f9ba49598ec83c6ab75b2616</ReportGuid>
+  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmE.mrt</ReportFile>
+  <ReportGuid>b708fe945a4346e7ad4377ed01166081</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
