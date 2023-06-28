@@ -715,6 +715,7 @@
               <ShrinkFontToFit>True</ShrinkFontToFit>
               <Text>{Persian(receiptItems.item_quantity)}</Text>
               <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
             </Text5>
             <header_product_price Ref="47" type="Text" isKey="true">
@@ -1319,7 +1320,7 @@
         </receipt_footer>
         <ReportSummaryBand1 Ref="82" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,18.41,7.1,1.2</ClientRectangle>
+          <ClientRectangle>0,18.41,7.1,2.6</ClientRectangle>
           <Components isList="true" count="3">
             <Text1 Ref="83" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1416,7 +1417,7 @@
       <LargeHeightFactor>2</LargeHeightFactor>
       <Margins>0.2,0.2,0.5,0</Margins>
       <Name>Page1</Name>
-      <PageHeight>20</PageHeight>
+      <PageHeight>25</PageHeight>
       <PageWidth>7.5</PageWidth>
       <Report isRef="0" />
       <UnlimitedBreakable>False</UnlimitedBreakable>
@@ -1434,10 +1435,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/24/2023 6:03:24 PM</ReportChanged>
+  <ReportChanged>6/28/2023 10:20:47 AM</ReportChanged>
   <ReportCreated>6/8/2023 2:33:45 PM</ReportCreated>
-  <ReportFile>C:\temp\FactorForoosh8cmFO.mrt</ReportFile>
-  <ReportGuid>a3d7e33c915f4e648bd4687ee922defb</ReportGuid>
+  <ReportFile>D:\Behrooz\Projects\csharp\escpos_printer\resources\reports\FactorForoosh8cmFO.mrt</ReportFile>
+  <ReportGuid>1d558239002f4831846b98bad42f1f2a</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Centimeters</ReportUnit>
   <ReportVersion>2023.1.1.0</ReportVersion>
